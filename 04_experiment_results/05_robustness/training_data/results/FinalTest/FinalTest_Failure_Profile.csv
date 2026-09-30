@@ -1,0 +1,5 @@
+﻿definition,criterion,N
+near-oracle,raw_regret <= 0.5,725
+severe failure,normalized_regret >= 0.75,426
+extreme failure,normalized_regret >= 0.95,331
+high-confidence severe failure,raw confidence >= frozen Validation q75 AND NR >= 0.75,86

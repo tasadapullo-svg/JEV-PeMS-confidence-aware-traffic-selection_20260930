@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "classification": "TECHNICAL_RERUN_ONLY",
+  "reason": "WORKBOOK_JSON_NONFINITE_SERIALIZATION",
+  "original_run_opened_once": true,
+  "raw_test_reloaded": false,
+  "scientific_recomputation": false,
+  "statistics_recomputed": false,
+  "models_rerun": false,
+  "stats_freeze_changed": false,
+  "scientific_output_hash_mismatches": 0,
+  "original_payload_sha256": "14ccf4f8788ab952a69aeb1fe935e800144b16602adda1b65d70b8f12f036fbb",
+  "sanitized_payload_sha256": "48a74dc2a1fcfdccfe4d1b53f6c308f2e5758a2b308d2d8c9afb45e943f7e213",
+  "nonfinite_value_count": 48,
+  "workbook_generated": true,
+  "workbook_qc_status": "PASS",
+  "recovery_timestamp": "2026-09-24T08:58:25.680342+00:00",
+  "notes": "Reporting serialization replaced non-finite payload values with JSON null; scientific source outputs were not edited."
+}

@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "Step2E_Common_Feature_Cache.pkl",
+      "sha256": "885ea025730aaeffa56baec74020584bdc63a9a2d1bc88138264f2de3f9cc53e",
+      "bytes": 1579125
+    },
+    {
+      "file": "Step2E_Common_Feature_Cache_SHA256.json",
+      "sha256": "fecffec49835a210cc62f8ad8d702abd163a4ba10c5ceaff58188786c2fa09de",
+      "bytes": 300
+    },
+    {
+      "file": "Step2E_Smoke_Fitting_Time.csv",
+      "sha256": "8c44f4b7f6c69399e683fb4edd95fdf7dd46601438b8a6de398d6b8638ae987e",
+      "bytes": 460
+    },
+    {
+      "file": "Step2E_Smoke_Inference_Latency.csv",
+      "sha256": "88050a4984a444ab7dd99a2cdf2b4ea11b43f4441a292d63f03dd2eabf5ff58b",
+      "bytes": 3530
+    },
+    {
+      "file": "Step2E_Smoke_Log.txt",
+      "sha256": "8b3e7371ed628557a54576f5aac60624bd287ec28795285b31cd29fdfbc64b6d",
+      "bytes": 21237
+    },
+    {
+      "file": "Step2E_Smoke_Memory_Profile.csv",
+      "sha256": "8e575a9fad97b7a328e774ec2d066c2358d49aab823671d33424136cc6238f51",
+      "bytes": 1340
+    },
+    {
+      "file": "Step2E_Smoke_Method_Efficiency_Summary.csv",
+      "sha256": "05b1d0d9192a512c8c3275976ee9e84739c8178d95df4ce0dfe19c8a7359d287",
+      "bytes": 1903
+    },
+    {
+      "file": "Step2E_Smoke_Model_Size.csv",
+      "sha256": "db1883c42406b803e77cfb7282042ac70e4dabdcf643812bd7032be688b96c52",
+      "bytes": 667
+    },
+    {
+      "file": "Step2E_Smoke_Pareto_Frontier.csv",
+      "sha256": "bf42d917b66f719811a3b8579dce678d0530648419d152422b2f522496d298c0",
+      "bytes": 502
+    },
+    {
+      "file": "Step2E_Smoke_Regret_Latency_Source_Data.csv",
+      "sha256": "bf42d917b66f719811a3b8579dce678d0530648419d152422b2f522496d298c0",
+      "bytes": 502
+    },
+    {
+      "file": "Step2E_Smoke_Speedup_Ratios.csv",
+      "sha256": "984c95eff6ae87591bbb7a853a1c5e208d80d51649c735e1431723a4f3df5b31",
+      "bytes": 525
+    },
+    {
+      "file": "Step2E_Smoke_Throughput.csv",
+      "sha256": "6e1e668d386c7cb0872018118327fb5e682ab85116d8d83ff0dbf8cd6a2a1a0f",
+      "bytes": 368
+    }
+  ]
+}

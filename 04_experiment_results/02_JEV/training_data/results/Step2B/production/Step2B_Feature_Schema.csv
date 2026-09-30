@@ -1,0 +1,34 @@
+﻿feature,family,definition,causal_max_time,fit_scope
+speed_lag00,F1,candidate speed at t-0 elapsed minutes,t,none
+speed_lag01,F1,candidate speed at t-5 elapsed minutes,t,none
+speed_lag02,F1,candidate speed at t-10 elapsed minutes,t,none
+speed_lag03,F1,candidate speed at t-15 elapsed minutes,t,none
+speed_lag04,F1,candidate speed at t-20 elapsed minutes,t,none
+speed_lag05,F1,candidate speed at t-25 elapsed minutes,t,none
+speed_lag06,F1,candidate speed at t-30 elapsed minutes,t,none
+speed_lag07,F1,candidate speed at t-35 elapsed minutes,t,none
+speed_lag08,F1,candidate speed at t-40 elapsed minutes,t,none
+speed_lag09,F1,candidate speed at t-45 elapsed minutes,t,none
+speed_lag10,F1,candidate speed at t-50 elapsed minutes,t,none
+speed_lag11,F1,candidate speed at t-55 elapsed minutes,t,none
+recent_observed_mean_60,F2,mean candidate %Observed over t..t-55,t,none
+recent_observed_min_60,F2,minimum candidate %Observed over t..t-55,t,none
+recent_observed_std_60,F2,population SD candidate %Observed over t..t-55,t,none
+recent_missing_count_60,F2,count missing %Observed positions over 12 lags,t,none
+recent_valid_count_60,F2,count finite %Observed positions over 12 lags,t,none
+train_candidate_observed_mean,F2,candidate historical mean of recent_observed_mean_60; Train only,t,Train only
+speed_mean_60,F3,mean speed over 12 causal lags,t,none
+speed_std_60,F3,population SD speed over 12 causal lags,t,none
+speed_min_60,F3,minimum speed over 12 causal lags,t,none
+speed_max_60,F3,maximum speed over 12 causal lags,t,none
+speed_range_60,F3,speed_max_60 - speed_min_60,t,none
+speed_slope_60,F3,OLS slope across chronological t-55..t speed sequence,t,none
+speed_delta_15,F3,speed(t) - speed(t-15m),t,none
+speed_delta_30,F3,speed(t) - speed(t-30m),t,none
+candidate_rank,F4,frozen Step2A spatial candidate rank,t,none
+abs_postmile_distance,F4,absolute candidate-target postmile distance,t,none
+signed_postmile_offset,F4,candidate postmile - target postmile,t,none
+hour_sin,F4,sin(2*pi*local minute-of-day/1440),t,none
+hour_cos,F4,cos(2*pi*local minute-of-day/1440),t,none
+dow_sin,F4,sin(2*pi*local day-of-week/7),t,none
+dow_cos,F4,cos(2*pi*local day-of-week/7),t,none

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "test_loaded": false,
+  "scientific_selector_models_changed": false,
+  "selector_hyperparameters_changed": false,
+  "JEV_definition_changed": false,
+  "validation_regret_source": "frozen_Step2B",
+  "timing_benchmark_does_not_replace_scientific_predictions": true,
+  "raw_data_io_excluded_from_primary_latency": true,
+  "reporting_time_excluded_from_primary_latency": true
+}

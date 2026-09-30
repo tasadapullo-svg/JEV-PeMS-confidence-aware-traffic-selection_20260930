@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "Step2E_Common_Feature_Cache.pkl",
+      "sha256": "818a56028f31599a57255e6fd5aa8308dd68bac1466e3cbab89ec0b78272f8d2",
+      "bytes": 27440008
+    },
+    {
+      "file": "Step2E_Common_Feature_Cache_SHA256.json",
+      "sha256": "35b90b623b2d13c916c071694f3b992e9faa4d90b6488d06ad40070af5f73e37",
+      "bytes": 305
+    },
+    {
+      "file": "Step2E_Fitting_Time.csv",
+      "sha256": "7f2fe84475a2176766de6db21bef6d78233f5cfce330c7f86fd79d4527ff9e39",
+      "bytes": 1043
+    },
+    {
+      "file": "Step2E_Inference_Latency.csv",
+      "sha256": "4c1d59e81b9b8eda67d56fbc81c757b72fae3b2c534e4e9472a2d3d5a3bfe9f3",
+      "bytes": 20204
+    },
+    {
+      "file": "Step2E_Memory.csv",
+      "sha256": "6a888921070f2cbaa27ec5a388524d406fa7f38a697575f6ec83ba9ca455f564",
+      "bytes": 10514
+    },
+    {
+      "file": "Step2E_Method_Efficiency_Summary.csv",
+      "sha256": "1d34d2e433e9453ec91a439aaef51b051f1980aba6a323095413595b60e1b53f",
+      "bytes": 2114
+    },
+    {
+      "file": "Step2E_Model_Size.csv",
+      "sha256": "6ca6b2d4da227d4f4b9926709c0baec1f7f43d855138d0837af49f13aee038a5",
+      "bytes": 874
+    },
+    {
+      "file": "Step2E_Pareto_Analysis.csv",
+      "sha256": "4ae8594fcb09d83df0f9d230f84b12b52cd9483615cde724b1da030831e56d59",
+      "bytes": 1157
+    },
+    {
+      "file": "Step2E_Production_Log.log",
+      "sha256": "13f11c729099303aaa1de967f0fa1b29c0507e7ae1ac251f7d25fc83c0bf7d8e",
+      "bytes": 17454
+    },
+    {
+      "file": "Step2E_Regret_Latency_SourceData.csv",
+      "sha256": "4ae8594fcb09d83df0f9d230f84b12b52cd9483615cde724b1da030831e56d59",
+      "bytes": 1157
+    },
+    {
+      "file": "Step2E_Speedup_Ratios.csv",
+      "sha256": "f54d71c7a55ce918bc8cbd1157bdb46668453199126c7126d5531aa9ab3dcbaa",
+      "bytes": 527
+    },
+    {
+      "file": "Step2E_Throughput.csv",
+      "sha256": "d53bf20bb1935dcc91754fad99811ed11b188b31121abb42feb842443846f947",
+      "bytes": 368
+    }
+  ]
+}

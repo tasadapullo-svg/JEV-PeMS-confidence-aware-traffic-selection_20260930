@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "selector_training_data_changed": false,
+  "jev_weights_refit": false,
+  "calibration_fit_split": "CAL_FIT",
+  "calibration_evaluation_split": "CAL_EVAL",
+  "cal_fit_precedes_cal_eval": true,
+  "same_timestamp_cross_split": false,
+  "test_loaded": false,
+  "test_target_samples": 0,
+  "test_statistics_used": false,
+  "future_test_information_used": false
+}

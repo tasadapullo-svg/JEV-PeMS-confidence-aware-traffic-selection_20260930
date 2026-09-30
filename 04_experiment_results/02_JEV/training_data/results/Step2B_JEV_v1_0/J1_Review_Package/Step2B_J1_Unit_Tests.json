@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "tests": {
+    "Q_bounds": true,
+    "S_bounds": true,
+    "D_bounds": true,
+    "C_bounds": true,
+    "weight_constraints": true,
+    "jev_score_bounds": true,
+    "selection_direction": true,
+    "deterministic_tie_break": true,
+    "relative_utility": true,
+    "all_candidate_tie": true,
+    "raw_confidence": true,
+    "no_future_features": true,
+    "validation_isolation": true,
+    "test_sealed": true
+  },
+  "failed": []
+}

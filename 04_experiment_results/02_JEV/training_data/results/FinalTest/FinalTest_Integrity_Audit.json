@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "stats_freeze_sha256": "1c94afc2556239e43bc0880db3204bd3c0d0d8b145567b9bf738689d3c12f1bc",
+  "script_sha256": "c1fc59a38d096f08952c0ca826cb451cbe986aca2ee226830b64953b4bc7b1a6",
+  "config_sha256": "4fa6c1078e06cf8966e27d41e7235ed3d8fbd31229ced172f3c2fb16245afc1b",
+  "scientific_logic_changed_after_open": false,
+  "selector_refit_on_validation": false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "test_loaded": false,
+  "JEV_changed": false,
+  "baseline_models_refit": false,
+  "Platt_refit": false,
+  "downstream_evaluators_rerun": false,
+  "context_threshold_fit_split": "Train",
+  "validation_outcomes_used_for_threshold_definition": false,
+  "high_confidence_threshold_source": "CAL_FIT",
+  "high_confidence_failure_eval_split": "CAL_EVAL",
+  "difficulty_variables_used_as_selector_features": false,
+  "boundary_analysis_is_explanatory_only": true,
+  "no_posthoc_stratum_merging": true
+}

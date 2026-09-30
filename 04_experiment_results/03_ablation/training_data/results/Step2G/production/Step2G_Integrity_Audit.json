@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "test_loaded": false,
+  "JEV_v1_0_changed": false,
+  "full_JEV_refit": false,
+  "ablation_variants_diagnostic_only": true,
+  "ablation_not_eligible_to_replace_frozen_JEV": true,
+  "selection_ablation_fit_split": "Train",
+  "selection_ablation_eval_split": "Validation",
+  "confidence_ablation_source": "frozen_Step2D",
+  "Platt_refit": false,
+  "downstream_models_refit": false,
+  "candidate_pool_changed": false,
+  "metric_definition_changed": false
+}

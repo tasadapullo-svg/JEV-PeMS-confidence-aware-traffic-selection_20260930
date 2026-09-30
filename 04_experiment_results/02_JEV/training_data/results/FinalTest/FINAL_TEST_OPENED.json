@@ -1,0 +1,17 @@
+{
+  "stats_freeze_sha256": "1c94afc2556239e43bc0880db3204bd3c0d0d8b145567b9bf738689d3c12f1bc",
+  "script_sha256": "c1fc59a38d096f08952c0ca826cb451cbe986aca2ee226830b64953b4bc7b1a6",
+  "config_sha256": "4fa6c1078e06cf8966e27d41e7235ed3d8fbd31229ced172f3c2fb16245afc1b",
+  "all_model_hashes": {
+    "jev_model": "dda67c0ddd235b1c7b2b100b5f03ed36528556cbda08c73fc094d5c9001c8e27",
+    "final_platt_model": "8d742b6720ecf49118beb348017d6cfc7bdfc59afec639fcc59ab5c945997629",
+    "xgb_forecaster": "795ec83ef0f04bcc6fa37f1043e5d71d9e83b08f065768ef1a654519b8e020db",
+    "category_encoder": "dd60caa4f8366b49ec2567fe53b1120f3f42c617080c513ea3529c74a56d0869",
+    "gru_forecaster": "a713c68149a6c17869f76d18777a1fb3620e894c379540259a84a326ccd43340",
+    "gru_scaler": "3d15d00a672c5762a7ea57fdc4871c7f047fe15045baff13a72d4eda1ab2f473",
+    "step1b_model_lock": "4c4055d8acbd9fa30cf3975248d4715d40e48853238dc1d0048710c800ebfd6d"
+  },
+  "opening_timestamp": "2026-09-24T08:03:13.763297+00:00",
+  "test_status": "OPENED_ONCE",
+  "run_type": "ONE_SHOT"
+}

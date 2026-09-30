@@ -1,0 +1,29 @@
+{
+  "selected_method": "Platt",
+  "eligible_methods": [
+    "Raw",
+    "Platt",
+    "Isotonic"
+  ],
+  "selection_rule": {
+    "eligible_methods": [
+      "Raw",
+      "Platt",
+      "Isotonic"
+    ],
+    "lexicographic_metrics": [
+      "brier_score",
+      "nll",
+      "ece"
+    ],
+    "direction": "lowest",
+    "tie_tolerance": 1e-12,
+    "constant_base_rate_reference_only": true
+  },
+  "selection_split": "CAL_EVAL",
+  "development_only": true,
+  "future_test_rule": {
+    "status": "RECORDED_NOT_EXECUTED",
+    "rule": "After the calibration family and all Step2C-Step2H design choices are frozen, refit only that family on all 1431 Validation target-times, apply once to Test, and never reselect after Test is opened."
+  }
+}

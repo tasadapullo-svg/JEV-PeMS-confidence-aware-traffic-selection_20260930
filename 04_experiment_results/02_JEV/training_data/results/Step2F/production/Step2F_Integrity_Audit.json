@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "test_loaded": false,
+  "selector_models_refit": false,
+  "JEV_changed": false,
+  "primary_downstream_predictor_refit": false,
+  "downstream_predictor_tuned": false,
+  "selected_sources_changed": false,
+  "primary_metric_predefined": "MAE",
+  "H30_horizon_unchanged": true,
+  "candidate_substitution_protocol_unchanged": true,
+  "primary_evaluation_split": "frozen_Step2B_Validation",
+  "same_denominator": true
+}

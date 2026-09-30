@@ -1,0 +1,320 @@
+{
+  "README": {
+    "rows": 4,
+    "cols": 2,
+    "first": {
+      "item": "Status",
+      "value": "Explanatory development analysis only"
+    },
+    "last": {
+      "item": "Test",
+      "value": "HELD_OUT_NOT_LOADED"
+    }
+  },
+  "THRESHOLDS": {
+    "rows": 6,
+    "cols": 7,
+    "first": {
+      "boundary_dimension": "SPREAD",
+      "variable": "spread",
+      "fit_split": "Train",
+      "p33_333": 2.238300323486328,
+      "p66_667": 4.1186574300130205,
+      "labels": "LOW_SPREAD|MID_SPREAD|HIGH_SPREAD",
+      "engineering_smoke_only": true
+    },
+    "last": {
+      "boundary_dimension": "HIGH_CONFIDENCE",
+      "variable": "Platt calibrated probability",
+      "fit_split": "CAL_FIT",
+      "p33_333": null,
+      "p66_667": 0.4678170578610457,
+      "labels": "confidence >= CAL_FIT q75",
+      "engineering_smoke_only": true
+    }
+  },
+  "STRATIFIED_PERFORMANCE": {
+    "rows": 21,
+    "cols": 19,
+    "first": {
+      "boundary_dimension": "TIE_SEPARATION",
+      "stratum": "NEAR_TIE",
+      "N": 104,
+      "unique_stations": 5,
+      "descriptive_status": "REPORTED",
+      "JEV_mean_NR": 0.37071704050781273,
+      "QualityRule_mean_NR": 0.3501046728330683,
+      "XGBoost_mean_NR": 0.3832765077457524,
+      "GRU_mean_NR": 0.395737247901956,
+      "Nearest_mean_NR": 0.45582809794839363,
+      "HistoricalBest_mean_NR": 0.4597931682380373,
+      "Ridge_mean_NR": 0.44095925473767505,
+      "Delta_JEV_vs_Quality": 0.020612367674744447,
+      "Delta_JEV_vs_XGB": -0.012559467237939659,
+      "Delta_JEV_vs_GRU": -0.02502020739414329,
+      "JEV_mean_raw_regret_mph": 1.0192682926471417,
+      "JEV_near_oracle_rate": 0.5673076923076923,
+      "JEV_top1_rate": 0.2403846153846154,
+      "JEV_severe_failure_rate": 0.22115384615384615
+    },
+    "last": {
+      "boundary_dimension": "WEEKDAY_WEEKEND",
+      "stratum": "WEEKEND",
+      "N": 36,
+      "unique_stations": 5,
+      "descriptive_status": "REPORTED",
+      "JEV_mean_NR": 0.3381192433223904,
+      "QualityRule_mean_NR": 0.21266690995490023,
+      "XGBoost_mean_NR": 0.5348565079860266,
+      "GRU_mean_NR": 0.3092673922156904,
+      "Nearest_mean_NR": 0.33829165934822086,
+      "HistoricalBest_mean_NR": 0.5693163177997558,
+      "Ridge_mean_NR": 0.5371610728805941,
+      "Delta_JEV_vs_Quality": 0.12545233336749018,
+      "Delta_JEV_vs_XGB": -0.19673726466363617,
+      "Delta_JEV_vs_GRU": 0.02885185110670002,
+      "JEV_mean_raw_regret_mph": 1.2417114045884874,
+      "JEV_near_oracle_rate": 0.5,
+      "JEV_top1_rate": 0.3888888888888889,
+      "JEV_severe_failure_rate": 0.2777777777777778
+    }
+  },
+  "DELTA_NR": {
+    "rows": 126,
+    "cols": 13,
+    "first": {
+      "boundary_dimension": "TIE_SEPARATION",
+      "stratum": "NEAR_TIE",
+      "baseline": "Quality Rule",
+      "N": 104,
+      "unique_stations": 5,
+      "DeltaNR_JEV_minus_baseline": 0.020612367674744385,
+      "bootstrap_status": "INSUFFICIENT_FOR_BOOTSTRAP",
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "bootstrap_mean": null,
+      "repetitions": 0,
+      "cluster": "target_station",
+      "development_only": true
+    },
+    "last": {
+      "boundary_dimension": "WEEKDAY_WEEKEND",
+      "stratum": "WEEKEND",
+      "baseline": "Ridge",
+      "N": 36,
+      "unique_stations": 5,
+      "DeltaNR_JEV_minus_baseline": -0.19904182955820363,
+      "bootstrap_status": "INSUFFICIENT_FOR_BOOTSTRAP",
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "bootstrap_mean": null,
+      "repetitions": 0,
+      "cluster": "target_station",
+      "development_only": true
+    }
+  },
+  "FAILURE_PROFILE": {
+    "rows": 5,
+    "cols": 11,
+    "first": {
+      "profile": "ALL_JEV",
+      "N": 171,
+      "station_count": 5,
+      "near_tie_rate": 0.6081871345029239,
+      "high_spread_rate": 0.47368421052631576,
+      "low_quality_rate": 0.25146198830409355,
+      "high_quality_heterogeneity_rate": 0,
+      "high_volatility_rate": 0.39766081871345027,
+      "far_distance_rate": 0,
+      "peak_rate": 0.10526315789473684,
+      "weekend_rate": 0.21052631578947367
+    },
+    "last": {
+      "profile": "HIGH_CONFIDENCE_SEVERE_FAILURE",
+      "N": 5,
+      "station_count": 2,
+      "near_tie_rate": 0.2,
+      "high_spread_rate": 0.8,
+      "low_quality_rate": 0.4,
+      "high_quality_heterogeneity_rate": 0,
+      "high_volatility_rate": 0.6,
+      "far_distance_rate": 0,
+      "peak_rate": 0,
+      "weekend_rate": 0
+    }
+  },
+  "HIGH_CONF_FAILURE": {
+    "rows": 13,
+    "cols": 33,
+    "first": {
+      "method": "Platt",
+      "sample_id": "775536_1781720100_H30",
+      "target_station": 775536,
+      "timestamp": "2026-06-17T11:15:00-07:00",
+      "timestamp_utc": "2026-06-17 18:15:00+00:00",
+      "selected_source": 718405,
+      "raw_regret_mph": 6.512958526611328,
+      "y_near_oracle": 0,
+      "exact_top1_hit": false,
+      "jev_raw_confidence": 0.0010569890134355,
+      "predicted_probability": 0.4693064033001856,
+      "calibration_split": "CAL_EVAL",
+      "development_only": true,
+      "normalized_regret": 1,
+      "spread": 6.512958526611328,
+      "oracle_gap": 1.9251022338867188,
+      "candidate_set_mean_Q": 0.125,
+      "quality_range": 0,
+      "candidate_set_mean_volatility": 0.21157230434920962,
+      "candidate_set_mean_abs_postmile_distance": 1.7894000000000005,
+      "SPREAD": "HIGH_SPREAD",
+      "QUALITY_LEVEL": "LOW_Q",
+      "QUALITY_HETEROGENEITY": "LOW_Q_HETEROGENEITY",
+      "VOLATILITY": "MID_VOLATILITY",
+      "DISTANCE": "NEAR",
+      "TIE_SEPARATION": "CLEAR_SEPARATION",
+      "PEAK_OFFPEAK": "OFF_PEAK",
+      "PEAK_DETAIL": "OFF_PEAK",
+      "WEEKDAY_WEEKEND": "WEEKDAY",
+      "local_timestamp": "2026-06-17 11:15:00-07:00",
+      "high_confidence": true,
+      "severe_failure": true,
+      "high_confidence_severe_failure": true
+    },
+    "last": {
+      "method": "Platt",
+      "sample_id": "775536_1782542700_H30",
+      "target_station": 775536,
+      "timestamp": "2026-06-26T23:45:00-07:00",
+      "timestamp_utc": "2026-06-27 06:45:00+00:00",
+      "selected_source": 768701,
+      "raw_regret_mph": 0.4121513366699219,
+      "y_near_oracle": 1,
+      "exact_top1_hit": false,
+      "jev_raw_confidence": 0.0012747308796073,
+      "predicted_probability": 0.4690776491523294,
+      "calibration_split": "CAL_EVAL",
+      "development_only": true,
+      "normalized_regret": 0.2262311077980979,
+      "spread": 1.8218154907226562,
+      "oracle_gap": 0.4121513366699219,
+      "candidate_set_mean_Q": 0.125,
+      "quality_range": 0,
+      "candidate_set_mean_volatility": 0.04486307776680287,
+      "candidate_set_mean_abs_postmile_distance": 1.7894000000000005,
+      "SPREAD": "LOW_SPREAD",
+      "QUALITY_LEVEL": "LOW_Q",
+      "QUALITY_HETEROGENEITY": "LOW_Q_HETEROGENEITY",
+      "VOLATILITY": "LOW_VOLATILITY",
+      "DISTANCE": "NEAR",
+      "TIE_SEPARATION": "NEAR_TIE",
+      "PEAK_OFFPEAK": "OFF_PEAK",
+      "PEAK_DETAIL": "OFF_PEAK",
+      "WEEKDAY_WEEKEND": "WEEKDAY",
+      "local_timestamp": "2026-06-26 23:45:00-07:00",
+      "high_confidence": true,
+      "severe_failure": false,
+      "high_confidence_severe_failure": false
+    }
+  },
+  "EVALUATOR_SENSITIVITY": {
+    "rows": 95,
+    "cols": 11,
+    "first": {
+      "boundary_dimension": "TIE_SEPARATION",
+      "stratum": "NEAR_TIE",
+      "baseline": "Quality Rule",
+      "N": 104,
+      "unique_stations": 5,
+      "DeltaMAE_XGBEvaluator": 0.231840830582839,
+      "DeltaMAE_GRUEvaluator": 0.0982644594679618,
+      "direction_XGB": "BASELINE_LOWER",
+      "direction_GRU": "BASELINE_LOWER",
+      "direction_consistent": true,
+      "evaluator_sensitive": false
+    },
+    "last": {
+      "boundary_dimension": "QUALITY_HETEROGENEITY",
+      "stratum": "LOW_Q_HETEROGENEITY",
+      "baseline": "Historical Best",
+      "N": 43,
+      "unique_stations": 1,
+      "DeltaMAE_XGBEvaluator": -0.09125376856604284,
+      "DeltaMAE_GRUEvaluator": -0.1394626487554511,
+      "direction_XGB": "JEV_LOWER",
+      "direction_GRU": "JEV_LOWER",
+      "direction_consistent": true,
+      "evaluator_sensitive": false
+    }
+  },
+  "BOOTSTRAP": {
+    "rows": 0,
+    "cols": 1,
+    "first": null,
+    "last": null
+  },
+  "CORRELATIONS": {
+    "rows": 5,
+    "cols": 5,
+    "first": {
+      "context_variable": "candidate_set_mean_Q",
+      "N": 171,
+      "spearman_rho": -0.12142302960484326,
+      "p_value_descriptive_only": 0.1136437710610648,
+      "use": "SUPPORTING_ONLY_NO_STRATUM_REDEFINITION"
+    },
+    "last": {
+      "context_variable": "spread",
+      "N": 171,
+      "spearman_rho": -0.1319877233875153,
+      "p_value_descriptive_only": 0.08527971273977242,
+      "use": "SUPPORTING_ONLY_NO_STRATUM_REDEFINITION"
+    }
+  },
+  "QC": {
+    "rows": 40,
+    "cols": 2,
+    "first": {
+      "check": "01_step2g_freeze_pass",
+      "pass": true
+    },
+    "last": {
+      "check": "40_smoke_full_production_not_executed",
+      "pass": true
+    }
+  },
+  "INTEGRITY": {
+    "rows": 13,
+    "cols": 2,
+    "first": {
+      "key": "status",
+      "value": "PASS"
+    },
+    "last": {
+      "key": "no_posthoc_stratum_merging",
+      "value": true
+    }
+  },
+  "RUNTIME": {
+    "rows": 1,
+    "cols": 7,
+    "first": {
+      "status": "PASS",
+      "elapsed_seconds_before_workbook": 0.8036345000000438,
+      "bootstrap_repetitions": 200,
+      "bootstrap_cluster": "target_station",
+      "eligible_bootstrap_comparisons": 0,
+      "test_loaded": false,
+      "formal_production_executed": false
+    },
+    "last": {
+      "status": "PASS",
+      "elapsed_seconds_before_workbook": 0.8036345000000438,
+      "bootstrap_repetitions": 200,
+      "bootstrap_cluster": "target_station",
+      "eligible_bootstrap_comparisons": 0,
+      "test_loaded": false,
+      "formal_production_executed": false
+    }
+  }
+}

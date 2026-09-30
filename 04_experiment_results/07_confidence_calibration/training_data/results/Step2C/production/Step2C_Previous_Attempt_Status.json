@@ -1,0 +1,7 @@
+{
+  "status": "FAILED_AT_PREFLIGHT",
+  "formal_calibration_started": false,
+  "scientific_results_generated": false,
+  "reason": "Legacy preflight treated the production log created at launch as evidence that production had already executed.",
+  "preserved_log": "Step2C_Production_Log.log"
+}

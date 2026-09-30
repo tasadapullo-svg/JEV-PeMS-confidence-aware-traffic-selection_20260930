@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "validation_target_times": 171,
+  "candidate_k": 5,
+  "method_denominators": {
+    "GRU": 171,
+    "Historical Best": 171,
+    "JEV v1.0": 171,
+    "Nearest": 171,
+    "Oracle (reference only)": 171,
+    "Quality Rule": 171,
+    "Ridge": 171,
+    "XGBoost": 171
+  },
+  "same_frozen_candidate_losses": true,
+  "same_frozen_candidate_mapping": true,
+  "preprocessing_fit_split": "train",
+  "historical_best_fit_split": "train",
+  "test_loaded": false
+}

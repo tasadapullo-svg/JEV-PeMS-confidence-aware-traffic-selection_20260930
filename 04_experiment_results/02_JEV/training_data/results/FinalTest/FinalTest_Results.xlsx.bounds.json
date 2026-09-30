@@ -1,0 +1,408 @@
+{
+  "README": {
+    "rows": 1,
+    "cols": 2,
+    "first": {
+      "item": "Protocol",
+      "value": "Immutable Stats Freeze one-shot Test"
+    },
+    "last": {
+      "item": "Protocol",
+      "value": "Immutable Stats Freeze one-shot Test"
+    }
+  },
+  "COHORT": {
+    "rows": 1579,
+    "cols": 18,
+    "first": {
+      "split": "test",
+      "target_station": 770141,
+      "timestamp": "2026-07-01T23:30:00-07:00",
+      "sample_id": "770141_1782973800_H30",
+      "requested_K": 5,
+      "mapped_candidate_count": 5,
+      "available_candidate_count": 5,
+      "missing_candidate_count": 0,
+      "candidate_pool_complete": true,
+      "primary_selection_evaluable": true,
+      "structural_insufficient_candidate_count": 0,
+      "source_history_missing_count": 0,
+      "invalid_candidate_feature_count": 0,
+      "complete_K5_sample": true,
+      "missing_candidate_reason": "",
+      "source_history_missing_ids": "",
+      "invalid_candidate_feature_ids": "",
+      "included_final_test": true
+    },
+    "last": {
+      "split": "test",
+      "target_station": 776493,
+      "timestamp": "2026-08-30T02:25:00-07:00",
+      "sample_id": "776493_1788081900_H30",
+      "requested_K": 5,
+      "mapped_candidate_count": 5,
+      "available_candidate_count": 5,
+      "missing_candidate_count": 0,
+      "candidate_pool_complete": true,
+      "primary_selection_evaluable": true,
+      "structural_insufficient_candidate_count": 0,
+      "source_history_missing_count": 0,
+      "invalid_candidate_feature_count": 0,
+      "complete_K5_sample": true,
+      "missing_candidate_reason": "",
+      "source_history_missing_ids": "",
+      "invalid_candidate_feature_ids": "",
+      "included_final_test": true
+    }
+  },
+  "SELECTOR_PERFORMANCE": {
+    "rows": 7,
+    "cols": 12,
+    "first": {
+      "method": "GRU",
+      "N": 1579,
+      "stations": 171,
+      "mean_normalized_regret": 0.36802885679397274,
+      "ci95_low": 0.34108628793118195,
+      "ci95_high": 0.3953070845336304,
+      "median_normalized_regret": 0.19451114394435384,
+      "mean_raw_regret_mph": 1.5949135756779502,
+      "median_raw_regret_mph": 0.5697860717773438,
+      "exact_top1": 0.29892336922102597,
+      "top2_hit": 0.526282457251425,
+      "near_oracle_hit_0p5": 0.473717542748575
+    },
+    "last": {
+      "method": "XGBoost",
+      "N": 1579,
+      "stations": 171,
+      "mean_normalized_regret": 0.3499333133292841,
+      "ci95_low": 0.31811859095304895,
+      "ci95_high": 0.3830804607729175,
+      "median_normalized_regret": 0.1810675941327688,
+      "mean_raw_regret_mph": 1.5239321036456581,
+      "median_raw_regret_mph": 0.5508880615234375,
+      "exact_top1": 0.3077897403419886,
+      "top2_hit": 0.5395820139328689,
+      "near_oracle_hit_0p5": 0.4813172894236859
+    }
+  },
+  "PRIMARY_COMPARISONS": {
+    "rows": 4,
+    "cols": 9,
+    "first": {
+      "hypothesis_id": "P1",
+      "family": "PRIMARY",
+      "comparison": "JEV vs Quality Rule",
+      "raw_effect": 0.02708736307278487,
+      "effect_size_cohen_dz": 0.13654160218192193,
+      "raw_p": 0.08099190080991901,
+      "wilcoxon_sensitivity_p": 0.10023672772648012,
+      "Holm_p": 0.08099190080991901,
+      "supported": false
+    },
+    "last": {
+      "hypothesis_id": "P4",
+      "family": "PRIMARY",
+      "comparison": "Full JEV confidence vs random retention",
+      "raw_effect": -0.04935486200629835,
+      "effect_size_cohen_dz": null,
+      "raw_p": 0.00009999000099990002,
+      "wilcoxon_sensitivity_p": null,
+      "Holm_p": 0.00039996000399960006,
+      "supported": true
+    }
+  },
+  "CALIBRATION": {
+    "rows": 3,
+    "cols": 5,
+    "first": {
+      "method": "Raw Identity",
+      "N": 1579,
+      "Brier": 0.4291907967513756,
+      "NLL": 2.0204912795875534,
+      "ECE_10_equal_width": 0.4267591314983441
+    },
+    "last": {
+      "method": "Constant Validation Base Rate",
+      "N": 1579,
+      "Brier": 0.24992053918835827,
+      "NLL": 0.693044647296629,
+      "ECE_10_equal_width": 0.039864149881237154
+    }
+  },
+  "CONFIDENCE_COMPARISONS": {
+    "rows": 4,
+    "cols": 6,
+    "first": {
+      "hypothesis_id": "C1",
+      "comparison": "Platt vs Raw Identity",
+      "raw_effect": -0.1724935552165451,
+      "raw_p": 0.00009999000099990002,
+      "Holm_p": 0.00029997000299970003,
+      "supported": true
+    },
+    "last": {
+      "hypothesis_id": "SUPPORTING_SELECTED_Q",
+      "comparison": "Selected-Q confidence (supporting only)",
+      "raw_effect": -0.01914900785609397,
+      "raw_p": null,
+      "Holm_p": null,
+      "supported": false
+    }
+  },
+  "RISK_COVERAGE": {
+    "rows": 9,
+    "cols": 6,
+    "first": {
+      "coverage": 1,
+      "N_retained": 1579,
+      "normalized_regret_risk": 0.38341539993037954,
+      "raw_regret_risk": 1.6879777382868162,
+      "near_oracle_failure_rate": 0.5408486383787208,
+      "Top1_error": 0.7175427485750475
+    },
+    "last": {
+      "coverage": 0.2,
+      "N_retained": 316,
+      "normalized_regret_risk": 0.2706570187415587,
+      "raw_regret_risk": 1.4816005320488652,
+      "near_oracle_failure_rate": 0.44303797468354433,
+      "Top1_error": 0.5981012658227849
+    }
+  },
+  "DOWNSTREAM_XGB": {
+    "rows": 7,
+    "cols": 5,
+    "first": {
+      "method": "GRU",
+      "N": 1579,
+      "MAE": 4.209603626717488,
+      "RMSE": 7.19578019095342,
+      "sMAPE": 7.3253116436473
+    },
+    "last": {
+      "method": "XGBoost",
+      "N": 1579,
+      "MAE": 4.138622154685196,
+      "RMSE": 7.243396579891411,
+      "sMAPE": 7.196231400425699
+    }
+  },
+  "DOWNSTREAM_GRU": {
+    "rows": 7,
+    "cols": 5,
+    "first": {
+      "method": "GRU",
+      "N": 1579,
+      "MAE": 4.038494011659725,
+      "RMSE": 7.376147324650626,
+      "sMAPE": 7.080762129657671
+    },
+    "last": {
+      "method": "XGBoost",
+      "N": 1579,
+      "MAE": 3.9418102286147345,
+      "RMSE": 7.307335020538864,
+      "sMAPE": 6.890693088562474
+    }
+  },
+  "BOUNDARY_CONFIRMATORY": {
+    "rows": 4,
+    "cols": 9,
+    "first": {
+      "hypothesis_id": "B1",
+      "status": "TESTABLE",
+      "comparison": "JEV vs Quality Rule",
+      "N": 859,
+      "stations": 164,
+      "raw_effect": 0.005757383730013855,
+      "raw_p": 0.5852414758524147,
+      "Holm_p": 1,
+      "supported": false
+    },
+    "last": {
+      "hypothesis_id": "B4",
+      "status": "TESTABLE",
+      "comparison": "JEV vs Quality Rule",
+      "N": 632,
+      "stations": 167,
+      "raw_effect": 0.008675449896286179,
+      "raw_p": 0.39386061393860616,
+      "Holm_p": 1,
+      "supported": false
+    }
+  },
+  "BOUNDARY_SUPPORTING": {
+    "rows": 16,
+    "cols": 6,
+    "first": {
+      "analysis": "clear separation",
+      "role": "SUPPORTING_ONLY",
+      "descriptive_min_n": 20,
+      "allowed": "N; means; paired differences; 95% CI",
+      "confirmatory_test": "NONE",
+      "status": "REPORTED_DESCRIPTIVELY"
+    },
+    "last": {
+      "analysis": "cross-evaluator direction consistency",
+      "role": "SUPPORTING_ONLY",
+      "descriptive_min_n": 20,
+      "allowed": "N; means; paired differences; 95% CI",
+      "confirmatory_test": "NONE",
+      "status": "REPORTED_DESCRIPTIVELY"
+    }
+  },
+  "FAILURE_PROFILE": {
+    "rows": 4,
+    "cols": 3,
+    "first": {
+      "definition": "near-oracle",
+      "criterion": "raw_regret <= 0.5",
+      "N": 725
+    },
+    "last": {
+      "definition": "high-confidence severe failure",
+      "criterion": "raw confidence >= frozen Validation q75 AND NR >= 0.75",
+      "N": 86
+    }
+  },
+  "EVALUATOR_SENSITIVITY": {
+    "rows": 7,
+    "cols": 9,
+    "first": {
+      "method": "Nearest",
+      "N_XGB": 1579,
+      "MAE_XGB": 4.6036955245768745,
+      "RMSE_XGB": 7.063332857770163,
+      "sMAPE_XGB": 7.961156494934305,
+      "N_GRU": 1579,
+      "MAE_GRU": 3.668855559606957,
+      "RMSE_GRU": 6.262906962301732,
+      "sMAPE_GRU": 6.467321552997238
+    },
+    "last": {
+      "method": "JEV",
+      "N_XGB": 1579,
+      "MAE_XGB": 4.302667789326354,
+      "RMSE_XGB": 7.22274815375711,
+      "sMAPE_XGB": 7.44514924664508,
+      "N_GRU": 1579,
+      "MAE_GRU": 3.808280012288978,
+      "RMSE_GRU": 7.052659482326065,
+      "sMAPE_GRU": 6.679906302908025
+    }
+  },
+  "MULTIPLICITY": {
+    "rows": 11,
+    "cols": 5,
+    "first": {
+      "hypothesis_id": "P1",
+      "family": "PRIMARY",
+      "raw_p": 0.08099190080991901,
+      "Holm_p": 0.08099190080991901,
+      "supported": false
+    },
+    "last": {
+      "hypothesis_id": "B4",
+      "family": "BOUNDARY_REPLICATION",
+      "raw_p": 0.39386061393860616,
+      "Holm_p": 1,
+      "supported": false
+    }
+  },
+  "CLAIM_MATRIX": {
+    "rows": 11,
+    "cols": 15,
+    "first": {
+      "hypothesis_id": "P1",
+      "family": "PRIMARY",
+      "endpoint": "frozen endpoint",
+      "comparison": "see frozen hypotheses",
+      "direction": "frozen",
+      "raw_effect": null,
+      "effect_size": null,
+      "CI_low": null,
+      "CI_high": null,
+      "raw_p": 0.08099190080991901,
+      "Holm_p": 0.08099190080991901,
+      "alpha": 0.05,
+      "supported": false,
+      "allowed_wording": "directional frozen claim only if supported; otherwise no statistically detectable difference",
+      "prohibited_wording": "equivalence, post-hoc superiority, or claims beyond this matrix"
+    },
+    "last": {
+      "hypothesis_id": "B4",
+      "family": "BOUNDARY_REPLICATION",
+      "endpoint": "frozen endpoint",
+      "comparison": "see frozen hypotheses",
+      "direction": "frozen",
+      "raw_effect": null,
+      "effect_size": null,
+      "CI_low": null,
+      "CI_high": null,
+      "raw_p": 0.39386061393860616,
+      "Holm_p": 1,
+      "alpha": 0.05,
+      "supported": false,
+      "allowed_wording": "directional frozen claim only if supported; otherwise no statistically detectable difference",
+      "prohibited_wording": "equivalence, post-hoc superiority, or claims beyond this matrix"
+    }
+  },
+  "QC": {
+    "rows": 1,
+    "cols": 7,
+    "first": {
+      "status": "PASS",
+      "test_opened": true,
+      "primary_stations": 171,
+      "candidate_k": 5,
+      "equal_method_denominators": true,
+      "missing_primary_predictions": 0,
+      "formula_errors": 0
+    },
+    "last": {
+      "status": "PASS",
+      "test_opened": true,
+      "primary_stations": 171,
+      "candidate_k": 5,
+      "equal_method_denominators": true,
+      "missing_primary_predictions": 0,
+      "formula_errors": 0
+    }
+  },
+  "INTEGRITY": {
+    "rows": 1,
+    "cols": 6,
+    "first": {
+      "status": "PASS",
+      "stats_freeze_sha256": "1c94afc2556239e43bc0880db3204bd3c0d0d8b145567b9bf738689d3c12f1bc",
+      "script_sha256": "c1fc59a38d096f08952c0ca826cb451cbe986aca2ee226830b64953b4bc7b1a6",
+      "config_sha256": "4fa6c1078e06cf8966e27d41e7235ed3d8fbd31229ced172f3c2fb16245afc1b",
+      "scientific_logic_changed_after_open": false,
+      "selector_refit_on_validation": false
+    },
+    "last": {
+      "status": "PASS",
+      "stats_freeze_sha256": "1c94afc2556239e43bc0880db3204bd3c0d0d8b145567b9bf738689d3c12f1bc",
+      "script_sha256": "c1fc59a38d096f08952c0ca826cb451cbe986aca2ee226830b64953b4bc7b1a6",
+      "config_sha256": "4fa6c1078e06cf8966e27d41e7235ed3d8fbd31229ced172f3c2fb16245afc1b",
+      "scientific_logic_changed_after_open": false,
+      "selector_refit_on_validation": false
+    }
+  },
+  "RUNTIME": {
+    "rows": 1,
+    "cols": 3,
+    "first": {
+      "status": "PASS",
+      "elapsed_seconds_before_workbook": 694.4738332999987,
+      "run_type": "ONE_SHOT"
+    },
+    "last": {
+      "status": "PASS",
+      "elapsed_seconds_before_workbook": 694.4738332999987,
+      "run_type": "ONE_SHOT"
+    }
+  }
+}

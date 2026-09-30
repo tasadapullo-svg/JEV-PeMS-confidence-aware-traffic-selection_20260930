@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "final_test_opened": true,
+  "final_test_opened_once": true,
+  "scientific_computation_status": "COMPLETE",
+  "scientific_qc": "PASS",
+  "integrity": "PASS",
+  "workbook_status": "PASS_AFTER_TECHNICAL_RECOVERY",
+  "technical_recovery": true,
+  "technical_recovery_classification": "TECHNICAL_RERUN_ONLY",
+  "technical_recovery_reason": "WORKBOOK_JSON_NONFINITE_SERIALIZATION",
+  "raw_test_reloaded_during_recovery": false,
+  "scientific_recomputation_during_recovery": false,
+  "stats_freeze_sha256": "1c94afc2556239e43bc0880db3204bd3c0d0d8b145567b9bf738689d3c12f1bc",
+  "scientific_hash_mismatches": 0,
+  "completion_timestamp": "2026-09-24T08:58:25.681345+00:00"
+}

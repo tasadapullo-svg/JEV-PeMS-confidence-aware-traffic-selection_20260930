@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": {
+    "version_1_0": true,
+    "evidence_count_4": true,
+    "evidence_names_Q_S_D_C": true,
+    "optimizer_SLSQP": true,
+    "initial_weights_equal_quarters": true,
+    "epsilon_1e_minus_6": true,
+    "z_clip_max_10": true,
+    "normalization_percentiles_5_95": true,
+    "candidate_k_5": true,
+    "confidence_margin_times_selected_Q": true,
+    "additive_score_exact": true
+  },
+  "mismatches": []
+}

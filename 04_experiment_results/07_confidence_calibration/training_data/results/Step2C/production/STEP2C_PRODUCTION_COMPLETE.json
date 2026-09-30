@@ -1,0 +1,10 @@
+{
+  "status": "STEP2C_PRODUCTION_COMPLETE",
+  "completed_at_utc": "2026-09-23T16:15:28.708985+00:00",
+  "qc_status": "PASS",
+  "leakage_status": "PASS",
+  "qc_sha256": "5a4d73c70ce5d307784f34f20827060e6b8f8441674a3fc0409b4fed417b07e1",
+  "selected_method_sha256": "9528c32422eeed75e6f45d49d7184d0c48da8468ff289c26cabd99806d7ba8a9",
+  "test_target_samples": 0,
+  "test_split_status": "HELD_OUT_NOT_LOADED"
+}

@@ -1,0 +1,20 @@
+{
+  "step": "Step2E",
+  "mode": "production",
+  "status": "PASS",
+  "checks": {
+    "train_target_times": 9169,
+    "validation_target_times": 1431,
+    "candidate_k": 5,
+    "test_target_times": 0,
+    "test_split_status": "HELD_OUT_NOT_LOADED",
+    "all_methods_present": true,
+    "inference_repeats_exact": true,
+    "primary_scope_excludes_io_reporting_workbook": true,
+    "cpu_single_thread": true,
+    "batch_size_1_target_time": true,
+    "step2b_regret_reused_without_recomputation": true,
+    "workbook_formula_errors": 0
+  },
+  "full_production_executed": true
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "feature_timestamps_lte_t": true,
+  "forbidden_features_absent": true,
+  "identifiers_absent_from_model_features": true,
+  "preprocessing_train_only": true,
+  "test_split_status": "HELD_OUT_NOT_LOADED"
+}

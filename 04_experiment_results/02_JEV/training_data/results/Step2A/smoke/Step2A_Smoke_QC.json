@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": {
+    "primary_station_ids_load_correctly": true,
+    "target_never_self_candidate": true,
+    "candidate_mapping_deterministic": true,
+    "route_direction_constraints_respected": true,
+    "time_ordering_preserved": true,
+    "no_future_target_in_selector_features": true,
+    "downstream_utility_consistent": true,
+    "oracle_equals_minimum_loss_candidate": true,
+    "oracle_gap_nonnegative": true,
+    "best_to_worst_spread_nonnegative": true,
+    "no_duplicate_target_time_candidate": true,
+    "splits_remain_separated": true,
+    "missing_candidates_explicit": true,
+    "dst_rules_compatible": true,
+    "regenerable_from_config_and_frozen_inputs": true
+  },
+  "critical_failures": [],
+  "formal_utility_protocol": "FROZEN_STEP1B_XGBOOST_SOURCE_SUBSTITUTION",
+  "formal_utility_implemented": true,
+  "test_used_for_design_or_threshold_selection": false
+}

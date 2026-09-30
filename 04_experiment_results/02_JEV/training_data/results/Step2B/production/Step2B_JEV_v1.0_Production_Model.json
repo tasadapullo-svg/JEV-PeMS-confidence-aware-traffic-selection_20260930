@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "freeze_hash": "e158bf2faef3f7b1f138e3ea13927aead4e1ce313470c499ae90726de5f21292",
+  "feature_evidence_definitions": {
+    "Q": "frozen quality average",
+    "S": "frozen inverse adverse stability average",
+    "D": "exp(-distance/tau_d)",
+    "C": "exp(-clipped standardized current-speed deviation)"
+  },
+  "normalization": {
+    "recent_observed_mean_60": {
+      "source_feature": "recent_observed_mean_60",
+      "absolute_value": false,
+      "p05": 0.0,
+      "p95": 100.0,
+      "degenerate": false,
+      "fit_split": "train"
+    },
+    "recent_observed_min_60": {
+      "source_feature": "recent_observed_min_60",
+      "absolute_value": false,
+      "p05": 0.0,
+      "p95": 100.0,
+      "degenerate": false,
+      "fit_split": "train"
+    },
+    "recent_missing_count_60": {
+      "source_feature": "recent_missing_count_60",
+      "absolute_value": false,
+      "p05": 0.0,
+      "p95": 0.0,
+      "degenerate": true,
+      "fit_split": "train"
+    },
+    "train_candidate_observed_mean": {
+      "source_feature": "train_candidate_observed_mean",
+      "absolute_value": false,
+      "p05": 0.0,
+      "p95": 57.84090909090909,
+      "degenerate": false,
+      "fit_split": "train"
+    },
+    "speed_std_60": {
+      "source_feature": "speed_std_60",
+      "absolute_value": false,
+      "p05": 0.07591912137466705,
+      "p95": 5.441216958323619,
+      "degenerate": false,
+      "fit_split": "train"
+    },
+    "speed_range_60": {
+      "source_feature": "speed_range_60",
+      "absolute_value": false,
+      "p05": 0.20000457763671875,
+      "p95": 17.200000762939453,
+      "degenerate": false,
+      "fit_split": "train"
+    },
+    "abs_speed_slope_60": {
+      "source_feature": "speed_slope_60",
+      "absolute_value": true,
+      "p05": 0.002797240143889833,
+      "p95": 0.7930069770012721,
+      "degenerate": false,
+      "fit_split": "train"
+    },
+    "abs_speed_delta_15": {
+      "source_feature": "speed_delta_15",
+      "absolute_value": true,
+      "p05": 0.0,
+      "p95": 4.299999237060547,
+      "degenerate": false,
+      "fit_split": "train"
+    },
+    "abs_speed_delta_30": {
+      "source_feature": "speed_delta_30",
+      "absolute_value": true,
+      "p05": 0.0,
+      "p95": 5.8000030517578125,
+      "degenerate": false,
+      "fit_split": "train"
+    }
+  },
+  "degenerate_features": [
+    "recent_missing_count_60"
+  ],
+  "tau_d": 0.8999999999999986,
+  "weights": {
+    "Q": 0.36937866657665075,
+    "S": 0.34117055706183863,
+    "D": 0.17952101029169557,
+    "C": 0.10992976606981511
+  },
+  "optimizer": {
+    "name": "SLSQP",
+    "success": true,
+    "status": 0,
+    "message": "Optimization terminated successfully",
+    "iterations": 13,
+    "objective": 0.17355935845254647,
+    "initial_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "floating_adjustment_applied": false,
+    "raw_weights": [
+      0.3693786665766507,
+      0.3411705570618386,
+      0.17952101029169554,
+      0.1099297660698151
+    ]
+  },
+  "software_versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1"
+  },
+  "fitting_timestamp_utc": "2026-09-23T13:40:25.913801+00:00",
+  "train_candidate_rows": 45845,
+  "train_target_times": 9169,
+  "test_status": "HELD_OUT_NOT_LOADED"
+}

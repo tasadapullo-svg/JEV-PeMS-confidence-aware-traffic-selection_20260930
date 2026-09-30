@@ -1,0 +1,51 @@
+comparison,metric,requested_coverage,estimate_mean,ci_p2_5,ci_p97_5,repetitions,cluster,seed,development_only
+JEV confidence (Platt-calibrated) minus JEV margin only,delta_AURC,,0.002871256529739115,-0.008118250525006688,0.013458470598534139,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Selected-source Q only,delta_AURC,,-0.009980482608912749,-0.03935581304199401,0.06588366506850231,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Quality Rule selective system,delta_AURC,,-0.005144230193399952,-0.06918669836976621,0.032173236277115436,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus XGBoost selective system,delta_AURC,,-0.11329785114297686,-0.29986576167110457,0.07067353596463616,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus GRU selective system,delta_AURC,,0.04803995721987955,-0.10000018674377067,0.10899663706443538,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus JEV margin only,delta_risk,1.0,-3.885780586188048e-18,-5.551115123125783e-17,0.0,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus JEV margin only,delta_risk,0.9,-0.004867622735311603,-0.016666666666666663,0.005185439222648636,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus JEV margin only,delta_risk,0.8,0.0005813025866992414,-0.011022983076796278,0.007168107160720194,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus JEV margin only,delta_risk,0.7,-0.00727232025512483,-0.03155159904795515,0.006450120129236514,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus JEV margin only,delta_risk,0.6,-0.0059695694779811495,-0.0316019458495225,0.0019264120752053814,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus JEV margin only,delta_risk,0.5,-0.00282983705549601,-0.05322364984856852,0.025106793885845607,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus JEV margin only,delta_risk,0.4,-0.004077348565496276,-0.055224835926280774,0.06451612903225806,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus JEV margin only,delta_risk,0.3,0.00708660357584741,-0.01381992089832732,0.09090909090909088,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus JEV margin only,delta_risk,0.2,0.008823805243793791,-0.00024180014644589742,0.13333333333333333,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Selected-source Q only,delta_risk,1.0,-8.465450562766818e-18,-1.1102230246251565e-16,5.551115123125783e-17,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Selected-source Q only,delta_risk,0.9,-0.012604770735872286,-0.05293941577252431,0.02941176470588236,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Selected-source Q only,delta_risk,0.8,-0.015136263319055043,-0.09143664071067498,0.02660348214191166,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Selected-source Q only,delta_risk,0.7,-0.014539261290274233,-0.08318719001552465,0.03257559783170064,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Selected-source Q only,delta_risk,0.6,-0.00528989419827759,-0.08039692188682875,0.04590393624432903,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Selected-source Q only,delta_risk,0.5,0.0064568573644079195,-0.08721476335429418,0.09497967220917744,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Selected-source Q only,delta_risk,0.4,0.01286019093808696,-0.12232841694016888,0.07933628210337283,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Selected-source Q only,delta_risk,0.3,-0.002198163132937604,-0.15602773915108062,0.11350819047215666,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Selected-source Q only,delta_risk,0.2,-0.04559989936957641,-0.3409335613940019,0.299227254316036,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Quality Rule selective system,delta_risk,1.0,0.05121182251935527,-0.054865162639769934,0.10204059761601343,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Quality Rule selective system,delta_risk,0.9,0.015706576756636337,-0.07270842132183908,0.08587943379986923,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Quality Rule selective system,delta_risk,0.8,0.003589271907426213,-0.10005250251695075,0.07475501593037082,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Quality Rule selective system,delta_risk,0.7,-0.0067098135651649125,-0.10531777411709095,0.08537380036444239,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Quality Rule selective system,delta_risk,0.6,0.000735443269838002,-0.0810827326125108,0.05960192511773843,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Quality Rule selective system,delta_risk,0.5,0.004099735882606849,-0.09094573652427224,0.06818217860434507,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Quality Rule selective system,delta_risk,0.4,0.004236207052663343,-0.12232841694016888,0.07735849687269862,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Quality Rule selective system,delta_risk,0.3,-0.013554309974207646,-0.15875590266786752,0.08357054268748239,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus Quality Rule selective system,delta_risk,0.2,-0.05556443398954527,-0.3409335613940019,0.09305857253019996,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus XGBoost selective system,delta_risk,1.0,-0.10147717830927533,-0.2802500051770294,0.09349001708562647,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus XGBoost selective system,delta_risk,0.9,-0.09761489086292813,-0.29357856860903253,0.1002052298238094,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus XGBoost selective system,delta_risk,0.8,-0.09932963224873152,-0.31303703810249023,0.06897327623050231,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus XGBoost selective system,delta_risk,0.7,-0.10994956415211714,-0.32491080615396506,0.0586605134400221,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus XGBoost selective system,delta_risk,0.6,-0.1193189293278294,-0.26225003113149753,0.04112871598197789,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus XGBoost selective system,delta_risk,0.5,-0.13389117950560425,-0.2697190624877907,0.0562044490435511,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus XGBoost selective system,delta_risk,0.4,-0.13891339236900835,-0.3057132651231435,0.0808975896709643,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus XGBoost selective system,delta_risk,0.3,-0.13492477567074915,-0.3435157269671119,0.08333333333333334,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus XGBoost selective system,delta_risk,0.2,-0.14527524483022727,-0.49402518907441323,0.07941132700811515,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus GRU selective system,delta_risk,1.0,0.044004857172371896,-0.03934526801736048,0.09944657884532221,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus GRU selective system,delta_risk,0.9,0.03066213178808962,-0.04461777001176087,0.11280297056418204,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus GRU selective system,delta_risk,0.8,0.0292168964670185,-0.06198041321790627,0.09909684784533326,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus GRU selective system,delta_risk,0.7,0.02154913332635319,-0.07949856733379418,0.11028045133437464,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus GRU selective system,delta_risk,0.6,0.030841304750238843,-0.09712326512482149,0.12773031269203722,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus GRU selective system,delta_risk,0.5,0.0416291242182433,-0.08033246651972885,0.16725750201363082,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus GRU selective system,delta_risk,0.4,0.04685677607744781,-0.1278950736707163,0.17261906044308062,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus GRU selective system,delta_risk,0.3,0.05826842301888314,-0.15645635771155983,0.18066373915492542,200,target_station,20260924,True
+JEV confidence (Platt-calibrated) minus GRU selective system,delta_risk,0.2,0.05984314981655505,-0.21393615769826863,0.23718732994482683,200,target_station,20260924,True

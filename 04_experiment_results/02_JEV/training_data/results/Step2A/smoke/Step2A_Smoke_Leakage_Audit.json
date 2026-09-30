@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "selector_visible_information_latest_time": "t",
+  "candidate_pool_uses_future_information": false,
+  "candidate_features_use_future_information": false,
+  "candidate_features_source": "raw PeMS exact records at t through t-55 elapsed minutes",
+  "future_target_used_only_for_retrospective_candidate_loss": true,
+  "test_oracle_used_for_feature_or_parameter_selection": false,
+  "test_used_in_smoke": false,
+  "candidate_availability_depends_on_future_target": false
+}

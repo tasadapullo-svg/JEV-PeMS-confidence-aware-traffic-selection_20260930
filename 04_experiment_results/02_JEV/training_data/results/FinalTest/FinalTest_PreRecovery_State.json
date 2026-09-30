@@ -1,0 +1,11 @@
+{
+  "recovery_type": "TECHNICAL_RERUN_ONLY",
+  "scientific_recomputation": false,
+  "raw_test_reloaded": false,
+  "stats_freeze_changed": false,
+  "scientific_logic_changed": false,
+  "workbook_failure_reason": "NON_STANDARD_JSON_NAN",
+  "stats_freeze_sha256": "1c94afc2556239e43bc0880db3204bd3c0d0d8b145567b9bf738689d3c12f1bc",
+  "scientific_files_frozen": 20,
+  "timestamp": "2026-09-24T08:55:51.039258+00:00"
+}

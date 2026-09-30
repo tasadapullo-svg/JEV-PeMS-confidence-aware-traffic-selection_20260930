@@ -1,0 +1,2 @@
+﻿target_station,requested_K,mapped_candidate_count,candidate_pool_complete,primary_selection_evaluable,exclusion_reason
+777316,5,1,False,False,INSUFFICIENT_ELIGIBLE_CANDIDATES

@@ -1,0 +1,5 @@
+﻿split,target_station,timestamp,sample_id,requested_K,mapped_candidate_count,available_candidate_count,missing_candidate_count,candidate_pool_complete,primary_selection_evaluable,structural_insufficient_candidate_count,source_history_missing_count,invalid_candidate_feature_count,complete_K5_sample,missing_candidate_reason,source_history_missing_ids,invalid_candidate_feature_ids
+train,777316,2026-01-02T23:30:00-08:00,777316_1767425400_H30,5,1,1,4,False,False,4,0,0,False,INSUFFICIENT_ELIGIBLE_CANDIDATES,,
+train,777316,2026-01-02T23:35:00-08:00,777316_1767425700_H30,5,1,1,4,False,False,4,0,0,False,INSUFFICIENT_ELIGIBLE_CANDIDATES,,
+validation,777316,2026-06-01T23:30:00-07:00,777316_1780381800_H30,5,1,1,4,False,False,4,0,0,False,INSUFFICIENT_ELIGIBLE_CANDIDATES,,
+validation,777316,2026-06-01T23:35:00-07:00,777316_1780382100_H30,5,1,1,4,False,False,4,0,0,False,INSUFFICIENT_ELIGIBLE_CANDIDATES,,

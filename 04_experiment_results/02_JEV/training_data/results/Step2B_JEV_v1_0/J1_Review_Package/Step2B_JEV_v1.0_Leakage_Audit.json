@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "feature_timestamps_lte_t": true,
+  "normalization_fit_train_only": true,
+  "weights_fit_train_only": true,
+  "tau_d_fit_train_only": true,
+  "validation_losses_not_used_for_fit": true,
+  "test_split_status": "HELD_OUT_NOT_LOADED",
+  "test_rows_loaded": 0,
+  "future_target_not_selector_input": true,
+  "oracle_fields_not_selector_input": true
+}

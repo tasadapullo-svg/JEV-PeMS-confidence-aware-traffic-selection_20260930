@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "checks": {
+    "frozen_universe_172": true,
+    "primary_evaluable_targets_171": true,
+    "station_777316_excluded": true,
+    "test_held_out_not_loaded": true,
+    "train_validation_separated": true,
+    "every_primary_target_time_k5": true,
+    "no_self_candidate": true,
+    "feature_timestamps_lte_t": true,
+    "forbidden_features_absent": true,
+    "ids_absent_from_model_features": true,
+    "preprocessing_train_only": true,
+    "historical_best_train_only": true,
+    "validation_labels_not_model_inputs": true,
+    "one_selection_per_method_sample": true,
+    "selected_candidate_in_frozen_pool": true,
+    "raw_regret_nonnegative": true,
+    "normalized_regret_bounded": true,
+    "oracle_regret_zero": true,
+    "near_oracle_tolerance_0p5": true,
+    "no_duplicate_method_predictions": true,
+    "same_validation_denominator": true,
+    "jev_audited_before_execution": true
+  },
+  "critical_failures": [],
+  "test_split_status": "HELD_OUT_NOT_LOADED",
+  "test_target_samples": 0,
+  "available_methods": [
+    "GRU",
+    "Historical Best",
+    "Nearest",
+    "Quality Rule",
+    "Ridge",
+    "XGBoost"
+  ],
+  "jev_status": "BLOCKED_FOR_JEV_IMPLEMENTATION",
+  "smoke_train_target_times": 437,
+  "smoke_validation_target_times": 171,
+  "same_denominator": {
+    "GRU": 171,
+    "Historical Best": 171,
+    "Nearest": 171,
+    "Quality Rule": 171,
+    "Ridge": 171,
+    "XGBoost": 171
+  },
+  "development_only": true
+}

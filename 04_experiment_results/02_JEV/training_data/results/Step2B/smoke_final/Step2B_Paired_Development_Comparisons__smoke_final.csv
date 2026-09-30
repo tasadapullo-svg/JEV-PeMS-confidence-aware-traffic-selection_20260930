@@ -1,0 +1,7 @@
+﻿reference_method,comparison_method,validation_target_times,mean_paired_normalized_regret_difference_jev_minus_baseline,median_paired_difference,station_wins,station_ties,station_losses,development_only
+JEV v1.0,Nearest,171,-0.17117805718010445,0.0,3,0,2,True
+JEV v1.0,Historical Best,171,-0.17611678564403885,-0.031079984646184167,4,0,1,True
+JEV v1.0,Quality Rule,171,0.049928030749242534,0.0,1,0,4,True
+JEV v1.0,Ridge,171,-0.1188185075447266,0.0,2,0,3,True
+JEV v1.0,XGBoost,171,-0.05050695308148328,0.0,2,0,3,True
+JEV v1.0,GRU,171,0.011865079286130974,0.0,1,0,4,True

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "input_split": "CAL_EVAL",
+  "cal_fit_rows_used_for_primary_evaluation": false,
+  "test_loaded": false,
+  "test_target_samples": 0,
+  "jev_refit": false,
+  "platt_refit": false,
+  "baseline_selectors_refit": false,
+  "future_information_used": false,
+  "coverage_levels_predefined": true,
+  "risk_metric_predefined": true,
+  "aurc_definition_predefined": true
+}
