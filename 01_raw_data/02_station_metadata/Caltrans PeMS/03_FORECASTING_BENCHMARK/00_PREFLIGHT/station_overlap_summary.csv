@@ -1,0 +1,2 @@
+﻿train_stations,validation_stations,test_stations,train_intersection_validation,train_intersection_test,validation_intersection_test,three_split_common,validation_only_not_in_train,test_only_not_in_train,train_only,temporal_generalization_cohort,seen_station_test_samples,unseen_station_test_samples
+392,212,256,203,231,202,196,9,25,154,MIXED,2951376,288351

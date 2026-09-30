@@ -1,0 +1,53 @@
+﻿column_index,field_name,official_or_inferred_name,data_type,unit,required_for_forecasting,required_for_reliability,notes
+1,timestamp,"core name from supplied field list, checked against observed values",local datetime,,True,True,
+2,station,"core name from supplied field list, checked against observed values",string,,True,True,
+3,district,"core name from supplied field list, checked against observed values",numeric,,False,False,
+4,freeway,"core name from supplied field list, checked against observed values",numeric,,False,False,
+5,direction,"core name from supplied field list, checked against observed values",string,,False,False,
+6,lane_type,"core name from supplied field list, checked against observed values",string,,False,False,
+7,station_length,"core name from supplied field list, checked against observed values",numeric,,False,False,
+8,samples,"core name from supplied field list, checked against observed values",numeric,,False,False,
+9,percent_observed,"core name from supplied field list, checked against observed values",numeric,percent,False,True,
+10,total_flow,"core name from supplied field list, checked against observed values",numeric,vehicles/5min,True,False,
+11,avg_occupancy,"core name from supplied field list, checked against observed values",numeric,fraction,True,False,
+12,avg_speed,"core name from supplied field list, checked against observed values",numeric,mph,True,True,
+13,lane_1_lane_samples,inferred lane group from repeated 5-column pattern,numeric,,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+14,lane_1_lane_flow,inferred lane group from repeated 5-column pattern,numeric,vehicles/5min,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+15,lane_1_lane_occupancy,inferred lane group from repeated 5-column pattern,numeric,fraction,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+16,lane_1_lane_speed,inferred lane group from repeated 5-column pattern,numeric,mph,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+17,lane_1_lane_observed,inferred lane group from repeated 5-column pattern,numeric,percent,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+18,lane_2_lane_samples,inferred lane group from repeated 5-column pattern,numeric,,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+19,lane_2_lane_flow,inferred lane group from repeated 5-column pattern,numeric,vehicles/5min,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+20,lane_2_lane_occupancy,inferred lane group from repeated 5-column pattern,numeric,fraction,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+21,lane_2_lane_speed,inferred lane group from repeated 5-column pattern,numeric,mph,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+22,lane_2_lane_observed,inferred lane group from repeated 5-column pattern,numeric,percent,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+23,lane_3_lane_samples,inferred lane group from repeated 5-column pattern,numeric,,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+24,lane_3_lane_flow,inferred lane group from repeated 5-column pattern,numeric,vehicles/5min,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+25,lane_3_lane_occupancy,inferred lane group from repeated 5-column pattern,numeric,fraction,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+26,lane_3_lane_speed,inferred lane group from repeated 5-column pattern,numeric,mph,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+27,lane_3_lane_observed,inferred lane group from repeated 5-column pattern,numeric,percent,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+28,lane_4_lane_samples,inferred lane group from repeated 5-column pattern,numeric,,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+29,lane_4_lane_flow,inferred lane group from repeated 5-column pattern,numeric,vehicles/5min,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+30,lane_4_lane_occupancy,inferred lane group from repeated 5-column pattern,numeric,fraction,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+31,lane_4_lane_speed,inferred lane group from repeated 5-column pattern,numeric,mph,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+32,lane_4_lane_observed,inferred lane group from repeated 5-column pattern,numeric,percent,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+33,lane_5_lane_samples,inferred lane group from repeated 5-column pattern,numeric,,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+34,lane_5_lane_flow,inferred lane group from repeated 5-column pattern,numeric,vehicles/5min,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+35,lane_5_lane_occupancy,inferred lane group from repeated 5-column pattern,numeric,fraction,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+36,lane_5_lane_speed,inferred lane group from repeated 5-column pattern,numeric,mph,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+37,lane_5_lane_observed,inferred lane group from repeated 5-column pattern,numeric,percent,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+38,lane_6_lane_samples,inferred lane group from repeated 5-column pattern,numeric,,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+39,lane_6_lane_flow,inferred lane group from repeated 5-column pattern,numeric,vehicles/5min,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+40,lane_6_lane_occupancy,inferred lane group from repeated 5-column pattern,numeric,fraction,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+41,lane_6_lane_speed,inferred lane group from repeated 5-column pattern,numeric,mph,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+42,lane_6_lane_observed,inferred lane group from repeated 5-column pattern,numeric,percent,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+43,lane_7_lane_samples,inferred lane group from repeated 5-column pattern,numeric,,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+44,lane_7_lane_flow,inferred lane group from repeated 5-column pattern,numeric,vehicles/5min,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+45,lane_7_lane_occupancy,inferred lane group from repeated 5-column pattern,numeric,fraction,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+46,lane_7_lane_speed,inferred lane group from repeated 5-column pattern,numeric,mph,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+47,lane_7_lane_observed,inferred lane group from repeated 5-column pattern,numeric,percent,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+48,lane_8_lane_samples,inferred lane group from repeated 5-column pattern,numeric,,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+49,lane_8_lane_flow,inferred lane group from repeated 5-column pattern,numeric,vehicles/5min,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+50,lane_8_lane_occupancy,inferred lane group from repeated 5-column pattern,numeric,fraction,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+51,lane_8_lane_speed,inferred lane group from repeated 5-column pattern,numeric,mph,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"
+52,lane_8_lane_observed,inferred lane group from repeated 5-column pattern,numeric,percent,False,False,"Lane 1-8 groups: samples, flow, occupancy, speed, observed flag"

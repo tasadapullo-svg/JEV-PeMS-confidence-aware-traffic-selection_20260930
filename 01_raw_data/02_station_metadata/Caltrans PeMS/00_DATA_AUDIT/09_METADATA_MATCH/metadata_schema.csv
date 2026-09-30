@@ -1,0 +1,4 @@
+﻿filename,columns,column_count
+d07_text_meta_2023_12_22.txt,ID;Fwy;Dir;District;County;City;State_PM;Abs_PM;Latitude;Longitude;Length;Type;Lanes;Name;User_ID_1;User_ID_2;User_ID_3;User_ID_4,18
+d07_text_meta_2026_07_17.txt,ID;Fwy;Dir;District;County;City;State_PM;Abs_PM;Latitude;Longitude;Length;Type;Lanes;Name;User_ID_1;User_ID_2;User_ID_3;User_ID_4,18
+d07_text_meta_2026_08_25.txt,ID;Fwy;Dir;District;County;City;State_PM;Abs_PM;Latitude;Longitude;Length;Type;Lanes;Name;User_ID_1;User_ID_2;User_ID_3;User_ID_4,18

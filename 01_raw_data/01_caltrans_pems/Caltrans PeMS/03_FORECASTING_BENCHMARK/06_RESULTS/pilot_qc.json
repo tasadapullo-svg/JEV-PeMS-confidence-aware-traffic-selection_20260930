@@ -1,0 +1,22 @@
+{
+  "all_pilot_rows_from_formal_H30_train": true,
+  "formal_validation_test_not_used_for_modeling": true,
+  "target_is_H30_speed": true,
+  "target_observed_100": true,
+  "exact_h30_elapsed": true,
+  "feature_timestamp_not_after_prediction": "INHERITED_FROM_STEP1A_EXACT_LAG_AUDIT",
+  "duplicate_sample_ids": 0,
+  "pilot_split_overlap": false,
+  "scaler_fit_source": "PILOT_TRAIN_ONLY",
+  "categorical_fit_source": "PILOT_TRAIN_ONLY",
+  "historical_average_fit_source": "PILOT_TRAIN_ONLY",
+  "xgb_early_stopping_source": "PILOT_VALIDATION_ONLY",
+  "gru_early_stopping_source": "PILOT_VALIDATION_ONLY",
+  "pilot_mae_role": "CODE_AND_MODEL_SMOKE_TEST_ONLY_NOT_PAPER_RESULT",
+  "station_overlap_status": "MIXED",
+  "gru_runtime_limit": false,
+  "pilot_status": "CONDITIONAL_PASS",
+  "critical_issues": [
+    "Formal H30 test includes 288351 samples from 25 stations absent from train"
+  ]
+}

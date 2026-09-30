@@ -1,0 +1,14 @@
+﻿dimension,status
+raw_download_complete,PARTIAL
+gzip_integrity,PASS
+schema_consistency,PASS
+temporal_completeness,PARTIAL
+station_stability,PARTIAL
+metadata_match,PARTIAL
+speed_usability,PARTIAL
+flow_usability,PASS
+occupancy_usability,PASS
+percent_observed_usability,PARTIAL
+forecast_target_usability,PARTIAL
+traffic_forecasting_readiness,PARTIAL
+decision_gating_data_readiness,PARTIAL

@@ -1,0 +1,34 @@
+{
+  "variables": [
+    "speed",
+    "flow",
+    "occupancy",
+    "observed_pct",
+    "samples"
+  ],
+  "mean": [
+    60.132179260253906,
+    309.3607177734375,
+    0.09065042436122894,
+    96.5567398071289,
+    39.25117111206055
+  ],
+  "std": [
+    12.994256019592285,
+    173.58010864257812,
+    0.08045416325330734,
+    5.520425796508789,
+    5.968897342681885
+  ],
+  "fit_source": "PILOT_TRAIN_ONLY",
+  "sequence_order": "lag11_to_lag00",
+  "context_features": [
+    "time_of_day_sin",
+    "time_of_day_cos",
+    "day_of_week_sin",
+    "day_of_week_cos",
+    "is_weekend",
+    "lanes",
+    "station_length"
+  ]
+}

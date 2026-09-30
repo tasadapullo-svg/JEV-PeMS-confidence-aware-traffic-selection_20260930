@@ -1,0 +1,50 @@
+============================================================
+STEP 0B — % OBSERVED / GROUND TRUTH AUDIT
+============================================================
+Canonical raw files:
+243
+ML rows:
+134324329
+ML stations:
+1936
+Stable ML stations:
+1886
+%Observed = 0:
+85.386373%
+%Observed >=80:
+10.832997%
+%Observed >=90:
+10.107745%
+%Observed =100:
+10.107745%
+Official interpretation of %Observed:
+0 means no 5-minute lane points classified as directly observed; non-null traffic values may be estimated. Per-record method unresolved.
+Speed non-null when %Observed=0:
+100.0%
+H30 aligned targets:
+134311835
+H30 target >=90:
+13575300
+H30 target =100:
+13575300
+H60 aligned targets:
+134300219
+H60 target >=90:
+13573518
+H60 target =100:
+13573518
+Stations with H30 target >=90:
+424
+Stations with H60 target >=90:
+424
+Input-quality variation:
+HIGH
+GROUND_TRUTH_FEASIBILITY:
+MEDIUM
+JEV_DECISION_GATING_FEASIBILITY:
+MEDIUM
+Critical risks:
+85.386373% of ML input rows have % Observed = 0; non-null speed is not direct-observation proof.; Official sources support observed-versus-imputed semantics, but per-record Speed/Flow/Occupancy estimation lineage and exact Station 5-Minute formulas remain OFFICIAL_DEFINITION_INCOMPLETE.; H30 0%-input to >=90 target: 18,714 rows across 392 stations; H60: 33,210 rows across 391 stations. These are the directly relevant degraded-input cohorts.; 28,221 zero-observation exact-value runs last at least 120 minutes across Speed/Flow/Occupancy combined; repetition alone does not identify imputation.
+Recommended next step:
+Review official-definition caveats and H30/H60 threshold sensitivity; then decide a target-quality policy and chronological study design. Do not freeze 200 stations or train models yet.
+============================================================

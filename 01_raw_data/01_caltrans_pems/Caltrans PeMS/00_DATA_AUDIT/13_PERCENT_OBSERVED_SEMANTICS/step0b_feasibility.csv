@@ -1,0 +1,4 @@
+﻿dimension,rating,evidence
+INPUT_QUALITY_VARIATION,HIGH,zero=85.386373%; 100=10.107745%; intermediate=4.505882%; nonempty bins=6
+GROUND_TRUTH_FEASIBILITY,MEDIUM,H30>=90: 13575300 rows/424 stations/241 days/18 freeways; H60>=90: 13573518 rows/424 stations/241 days/18 freeways
+JEV_DECISION_GATING_FEASIBILITY,MEDIUM,0%-input to >=90 target: H30=18714 rows/392 stations/222 days; H60=33210 rows/391 stations/222 days. Out-of-sample errors remain uncomputed.

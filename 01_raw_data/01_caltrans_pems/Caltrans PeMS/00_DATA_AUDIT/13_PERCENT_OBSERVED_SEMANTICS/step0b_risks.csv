@@ -1,0 +1,5 @@
+﻿risk_number,risk
+1,85.386373% of ML input rows have % Observed = 0; non-null speed is not direct-observation proof.
+2,"Official sources support observed-versus-imputed semantics, but per-record Speed/Flow/Occupancy estimation lineage and exact Station 5-Minute formulas remain OFFICIAL_DEFINITION_INCOMPLETE."
+3,"H30 0%-input to >=90 target: 18,714 rows across 392 stations; H60: 33,210 rows across 391 stations. These are the directly relevant degraded-input cohorts."
+4,"28,221 zero-observation exact-value runs last at least 120 minutes across Speed/Flow/Occupancy combined; repetition alone does not identify imputation."

@@ -1,0 +1,15 @@
+{
+  "status": "LOCAL_LIKELY_SUFFICIENT",
+  "reasons": [
+    "Both model runtime estimates are within two hours based on the local pilot."
+  ],
+  "source": "LOCAL_PILOT_MEASUREMENTS_ONLY",
+  "estimate_status": "ESTIMATE_ONLY",
+  "xgboost_full_train_seconds": 99.55495957078882,
+  "gru_full_seconds_per_epoch": 222.75725198145113,
+  "gru_30_epochs_seconds": 6682.717559443534,
+  "limitations": [
+    "ESTIMATE_ONLY: scaling from a five-day pilot is not guaranteed linear.",
+    "The full dataset can change RAM, GPU VRAM, I/O and early-stopping behavior."
+  ]
+}

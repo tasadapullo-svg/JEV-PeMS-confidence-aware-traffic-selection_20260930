@@ -1,0 +1,30 @@
+{
+  "canonical_raw_files": 243,
+  "ML_rows": 134324329,
+  "ML_stations": 1936,
+  "stable_ML_stations": 1886,
+  "percent_observed_zero_pct": 85.386373,
+  "percent_observed_ge80_pct": 10.832997,
+  "percent_observed_ge90_pct": 10.107745,
+  "percent_observed_100_pct": 10.107745,
+  "official_interpretation": "0% means no 5-minute lane points classified as observed; non-null aggregate variables may be estimated. Exact per-record method unresolved.",
+  "speed_non_null_when_zero_pct": 100.0,
+  "H30_aligned_targets": 134311835,
+  "H30_target_ge90": 13575300,
+  "H30_target_100": 13575300,
+  "H60_aligned_targets": 134300219,
+  "H60_target_ge90": 13573518,
+  "H60_target_100": 13573518,
+  "stations_H30_target_ge90": 424,
+  "stations_H60_target_ge90": 424,
+  "input_quality_variation": "HIGH",
+  "ground_truth_feasibility": "MEDIUM",
+  "jev_decision_gating_feasibility": "MEDIUM",
+  "critical_risks": [
+    "85.386373% of ML input rows have % Observed = 0; non-null speed is not direct-observation proof.",
+    "Official sources support observed-versus-imputed semantics, but per-record Speed/Flow/Occupancy estimation lineage and exact Station 5-Minute formulas remain OFFICIAL_DEFINITION_INCOMPLETE.",
+    "H30 0%-input to >=90 target: 18,714 rows across 392 stations; H60: 33,210 rows across 391 stations. These are the directly relevant degraded-input cohorts.",
+    "28,221 zero-observation exact-value runs last at least 120 minutes across Speed/Flow/Occupancy combined; repetition alone does not identify imputation."
+  ],
+  "recommended_next_step": "Review official-definition caveats and H30/H60 threshold sensitivity; then decide a target-quality policy and chronological study design. Do not freeze 200 stations or train models yet."
+}

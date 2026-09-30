@@ -1,0 +1,1597 @@
+{
+  "stable_ml_stations": 1886,
+  "h30": {
+    "train_q0_100_samples": 14764,
+    "validation_q0_100_samples": 1599,
+    "test_q0_100_samples": 2214,
+    "train_stations": 357,
+    "validation_stations": 191,
+    "test_stations": 233,
+    "readiness": "PASS"
+  },
+  "h60": {
+    "train_q0_100_samples": 27404,
+    "validation_q0_100_samples": 2512,
+    "test_q0_100_samples": 3033,
+    "train_stations": 357,
+    "validation_stations": 191,
+    "test_stations": 231,
+    "readiness": "PASS"
+  },
+  "high_quality_reference": "PASS",
+  "boundary_leakage": 0,
+  "temporal_split_valid": true,
+  "three_split_common_q0_stations_H30": 172,
+  "three_split_common_q0_stations_H60": 171,
+  "temporal_concentration_risk": "HIGH",
+  "step0c_status": "PASS",
+  "critical_issues": [
+    "Q0→100 events are highly concentrated in a small number of days"
+  ],
+  "recommended_next_step": "Review H30 split coverage and target-quality policy before Step 1; do not train models in Step 0C.",
+  "boundary_exclusions": {
+    "H30_TRAIN": 11316,
+    "H30_VALIDATION": 11316,
+    "H30_TEST": 0,
+    "H60_TRAIN": 22632,
+    "H60_VALIDATION": 22632,
+    "H60_TEST": 0
+  },
+  "test_out_of_range": {
+    "H30": 11316,
+    "H60": 22632
+  },
+  "missing_future_rows": {
+    "H30_TRAIN": 0,
+    "H30_VALIDATION": 868,
+    "H30_TEST": 0,
+    "H60_TRAIN": 0,
+    "H60_VALIDATION": 868,
+    "H60_TEST": 0
+  },
+  "q0_station_sample_distribution": {
+    "H30_TRAIN": {
+      "min": 1.0,
+      "P10": 6.0,
+      "P25": 18.0,
+      "median": 35.0,
+      "P75": 50.0,
+      "P90": 87.0,
+      "max": 227.0
+    },
+    "H30_VALIDATION": {
+      "min": 1.0,
+      "P10": 7.0,
+      "P25": 7.0,
+      "median": 7.0,
+      "P75": 7.0,
+      "P90": 13.0,
+      "max": 48.0
+    },
+    "H30_TEST": {
+      "min": 1.0,
+      "P10": 6.0,
+      "P25": 6.0,
+      "median": 6.0,
+      "P75": 12.0,
+      "P90": 14.800000000000011,
+      "max": 61.0
+    },
+    "H60_TRAIN": {
+      "min": 1.0,
+      "P10": 12.0,
+      "P25": 35.0,
+      "median": 59.0,
+      "P75": 95.0,
+      "P90": 167.0,
+      "max": 444.0
+    },
+    "H60_VALIDATION": {
+      "min": 1.0,
+      "P10": 10.0,
+      "P25": 10.0,
+      "median": 10.0,
+      "P75": 10.0,
+      "P90": 22.0,
+      "max": 93.0
+    },
+    "H60_TEST": {
+      "min": 1.0,
+      "P10": 5.0,
+      "P25": 5.0,
+      "median": 5.0,
+      "P75": 17.0,
+      "P90": 25.0,
+      "max": 120.0
+    }
+  },
+  "q0_monthly_samples": {
+    "H30_TRAIN": {
+      "2026-01": 2797,
+      "2026-02": 5653,
+      "2026-03": 1330,
+      "2026-04": 960,
+      "2026-05": 4024
+    },
+    "H30_VALIDATION": {
+      "2026-06": 1599
+    },
+    "H30_TEST": {
+      "2026-07": 550,
+      "2026-08": 1664
+    },
+    "H60_TRAIN": {
+      "2026-01": 5554,
+      "2026-02": 10512,
+      "2026-03": 2656,
+      "2026-04": 1902,
+      "2026-05": 6780
+    },
+    "H60_VALIDATION": {
+      "2026-06": 2512
+    },
+    "H60_TEST": {
+      "2026-07": 1090,
+      "2026-08": 1943
+    }
+  },
+  "q0_freeway_direction": [
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "10",
+      "direction": "E",
+      "samples": 1127,
+      "stations": 28
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "10",
+      "direction": "W",
+      "samples": 1354,
+      "stations": 36
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "101",
+      "direction": "N",
+      "samples": 387,
+      "stations": 11
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "101",
+      "direction": "S",
+      "samples": 321,
+      "stations": 9
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "110",
+      "direction": "N",
+      "samples": 46,
+      "stations": 2
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "110",
+      "direction": "S",
+      "samples": 65,
+      "stations": 1
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "118",
+      "direction": "E",
+      "samples": 604,
+      "stations": 26
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "118",
+      "direction": "W",
+      "samples": 480,
+      "stations": 24
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "134",
+      "direction": "E",
+      "samples": 611,
+      "stations": 8
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "134",
+      "direction": "W",
+      "samples": 483,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "14",
+      "direction": "N",
+      "samples": 146,
+      "stations": 4
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "14",
+      "direction": "S",
+      "samples": 396,
+      "stations": 5
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "2",
+      "direction": "E",
+      "samples": 180,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "2",
+      "direction": "W",
+      "samples": 303,
+      "stations": 7
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "210",
+      "direction": "E",
+      "samples": 1976,
+      "stations": 30
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "210",
+      "direction": "W",
+      "samples": 1348,
+      "stations": 32
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "23",
+      "direction": "N",
+      "samples": 192,
+      "stations": 13
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "23",
+      "direction": "S",
+      "samples": 108,
+      "stations": 8
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "405",
+      "direction": "N",
+      "samples": 344,
+      "stations": 9
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "405",
+      "direction": "S",
+      "samples": 453,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "47",
+      "direction": "N",
+      "samples": 129,
+      "stations": 1
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "5",
+      "direction": "N",
+      "samples": 151,
+      "stations": 5
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "5",
+      "direction": "S",
+      "samples": 717,
+      "stations": 13
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "57",
+      "direction": "N",
+      "samples": 181,
+      "stations": 5
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "57",
+      "direction": "S",
+      "samples": 263,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "60",
+      "direction": "E",
+      "samples": 151,
+      "stations": 5
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "60",
+      "direction": "W",
+      "samples": 548,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "605",
+      "direction": "N",
+      "samples": 534,
+      "stations": 11
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "605",
+      "direction": "S",
+      "samples": 236,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "710",
+      "direction": "N",
+      "samples": 88,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "710",
+      "direction": "S",
+      "samples": 73,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "91",
+      "direction": "E",
+      "samples": 447,
+      "stations": 15
+    },
+    {
+      "horizon": "H30",
+      "split": "TRAIN",
+      "freeway": "91",
+      "direction": "W",
+      "samples": 322,
+      "stations": 10
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "10",
+      "direction": "E",
+      "samples": 167,
+      "stations": 24
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "10",
+      "direction": "W",
+      "samples": 185,
+      "stations": 27
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "101",
+      "direction": "N",
+      "samples": 62,
+      "stations": 8
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "101",
+      "direction": "S",
+      "samples": 55,
+      "stations": 8
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "110",
+      "direction": "N",
+      "samples": 26,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "110",
+      "direction": "S",
+      "samples": 13,
+      "stations": 1
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "134",
+      "direction": "E",
+      "samples": 49,
+      "stations": 7
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "134",
+      "direction": "W",
+      "samples": 42,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "14",
+      "direction": "N",
+      "samples": 21,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "14",
+      "direction": "S",
+      "samples": 68,
+      "stations": 4
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "2",
+      "direction": "E",
+      "samples": 7,
+      "stations": 1
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "2",
+      "direction": "W",
+      "samples": 14,
+      "stations": 2
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "210",
+      "direction": "E",
+      "samples": 133,
+      "stations": 14
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "210",
+      "direction": "W",
+      "samples": 182,
+      "stations": 17
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "405",
+      "direction": "N",
+      "samples": 35,
+      "stations": 4
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "405",
+      "direction": "S",
+      "samples": 27,
+      "stations": 4
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "47",
+      "direction": "N",
+      "samples": 37,
+      "stations": 1
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "5",
+      "direction": "N",
+      "samples": 27,
+      "stations": 4
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "5",
+      "direction": "S",
+      "samples": 93,
+      "stations": 9
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "57",
+      "direction": "N",
+      "samples": 36,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "57",
+      "direction": "S",
+      "samples": 42,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "60",
+      "direction": "E",
+      "samples": 21,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "60",
+      "direction": "W",
+      "samples": 54,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "605",
+      "direction": "N",
+      "samples": 41,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "605",
+      "direction": "S",
+      "samples": 63,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "710",
+      "direction": "N",
+      "samples": 14,
+      "stations": 2
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "710",
+      "direction": "S",
+      "samples": 14,
+      "stations": 2
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "91",
+      "direction": "E",
+      "samples": 43,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "VALIDATION",
+      "freeway": "91",
+      "direction": "W",
+      "samples": 28,
+      "stations": 4
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "10",
+      "direction": "E",
+      "samples": 212,
+      "stations": 25
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "10",
+      "direction": "W",
+      "samples": 283,
+      "stations": 29
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "101",
+      "direction": "N",
+      "samples": 73,
+      "stations": 8
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "101",
+      "direction": "S",
+      "samples": 78,
+      "stations": 10
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "110",
+      "direction": "N",
+      "samples": 11,
+      "stations": 1
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "110",
+      "direction": "S",
+      "samples": 18,
+      "stations": 1
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "134",
+      "direction": "E",
+      "samples": 42,
+      "stations": 7
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "134",
+      "direction": "W",
+      "samples": 32,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "14",
+      "direction": "N",
+      "samples": 24,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "14",
+      "direction": "S",
+      "samples": 119,
+      "stations": 4
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "2",
+      "direction": "E",
+      "samples": 6,
+      "stations": 1
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "2",
+      "direction": "W",
+      "samples": 12,
+      "stations": 2
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "210",
+      "direction": "E",
+      "samples": 282,
+      "stations": 28
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "210",
+      "direction": "W",
+      "samples": 310,
+      "stations": 30
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "405",
+      "direction": "N",
+      "samples": 18,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "405",
+      "direction": "S",
+      "samples": 24,
+      "stations": 4
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "47",
+      "direction": "N",
+      "samples": 51,
+      "stations": 1
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "5",
+      "direction": "N",
+      "samples": 48,
+      "stations": 5
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "5",
+      "direction": "S",
+      "samples": 112,
+      "stations": 9
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "57",
+      "direction": "N",
+      "samples": 30,
+      "stations": 5
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "57",
+      "direction": "S",
+      "samples": 36,
+      "stations": 6
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "60",
+      "direction": "E",
+      "samples": 40,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "60",
+      "direction": "W",
+      "samples": 45,
+      "stations": 7
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "605",
+      "direction": "N",
+      "samples": 62,
+      "stations": 5
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "605",
+      "direction": "S",
+      "samples": 39,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "710",
+      "direction": "N",
+      "samples": 39,
+      "stations": 4
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "710",
+      "direction": "S",
+      "samples": 34,
+      "stations": 3
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "91",
+      "direction": "E",
+      "samples": 77,
+      "stations": 12
+    },
+    {
+      "horizon": "H30",
+      "split": "TEST",
+      "freeway": "91",
+      "direction": "W",
+      "samples": 57,
+      "stations": 8
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "10",
+      "direction": "E",
+      "samples": 2031,
+      "stations": 28
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "10",
+      "direction": "W",
+      "samples": 2447,
+      "stations": 36
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "101",
+      "direction": "N",
+      "samples": 688,
+      "stations": 11
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "101",
+      "direction": "S",
+      "samples": 567,
+      "stations": 9
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "110",
+      "direction": "N",
+      "samples": 85,
+      "stations": 2
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "110",
+      "direction": "S",
+      "samples": 120,
+      "stations": 1
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "118",
+      "direction": "E",
+      "samples": 1151,
+      "stations": 26
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "118",
+      "direction": "W",
+      "samples": 942,
+      "stations": 24
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "134",
+      "direction": "E",
+      "samples": 1140,
+      "stations": 8
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "134",
+      "direction": "W",
+      "samples": 900,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "14",
+      "direction": "N",
+      "samples": 262,
+      "stations": 4
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "14",
+      "direction": "S",
+      "samples": 766,
+      "stations": 5
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "2",
+      "direction": "E",
+      "samples": 345,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "2",
+      "direction": "W",
+      "samples": 548,
+      "stations": 7
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "210",
+      "direction": "E",
+      "samples": 3749,
+      "stations": 30
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "210",
+      "direction": "W",
+      "samples": 2474,
+      "stations": 32
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "23",
+      "direction": "N",
+      "samples": 372,
+      "stations": 13
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "23",
+      "direction": "S",
+      "samples": 208,
+      "stations": 8
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "405",
+      "direction": "N",
+      "samples": 644,
+      "stations": 9
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "405",
+      "direction": "S",
+      "samples": 848,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "47",
+      "direction": "N",
+      "samples": 255,
+      "stations": 1
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "5",
+      "direction": "N",
+      "samples": 277,
+      "stations": 5
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "5",
+      "direction": "S",
+      "samples": 1347,
+      "stations": 13
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "57",
+      "direction": "N",
+      "samples": 308,
+      "stations": 5
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "57",
+      "direction": "S",
+      "samples": 464,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "60",
+      "direction": "E",
+      "samples": 264,
+      "stations": 5
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "60",
+      "direction": "W",
+      "samples": 1035,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "605",
+      "direction": "N",
+      "samples": 1008,
+      "stations": 11
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "605",
+      "direction": "S",
+      "samples": 441,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "710",
+      "direction": "N",
+      "samples": 169,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "710",
+      "direction": "S",
+      "samples": 124,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "91",
+      "direction": "E",
+      "samples": 826,
+      "stations": 15
+    },
+    {
+      "horizon": "H60",
+      "split": "TRAIN",
+      "freeway": "91",
+      "direction": "W",
+      "samples": 599,
+      "stations": 10
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "10",
+      "direction": "E",
+      "samples": 245,
+      "stations": 24
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "10",
+      "direction": "W",
+      "samples": 266,
+      "stations": 27
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "101",
+      "direction": "N",
+      "samples": 95,
+      "stations": 8
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "101",
+      "direction": "S",
+      "samples": 82,
+      "stations": 8
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "110",
+      "direction": "N",
+      "samples": 47,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "110",
+      "direction": "S",
+      "samples": 22,
+      "stations": 1
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "134",
+      "direction": "E",
+      "samples": 70,
+      "stations": 7
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "134",
+      "direction": "W",
+      "samples": 60,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "14",
+      "direction": "N",
+      "samples": 30,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "14",
+      "direction": "S",
+      "samples": 128,
+      "stations": 4
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "2",
+      "direction": "E",
+      "samples": 10,
+      "stations": 1
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "2",
+      "direction": "W",
+      "samples": 20,
+      "stations": 2
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "210",
+      "direction": "E",
+      "samples": 214,
+      "stations": 14
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "210",
+      "direction": "W",
+      "samples": 306,
+      "stations": 17
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "405",
+      "direction": "N",
+      "samples": 59,
+      "stations": 4
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "405",
+      "direction": "S",
+      "samples": 39,
+      "stations": 4
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "47",
+      "direction": "N",
+      "samples": 70,
+      "stations": 1
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "5",
+      "direction": "N",
+      "samples": 42,
+      "stations": 4
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "5",
+      "direction": "S",
+      "samples": 156,
+      "stations": 9
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "57",
+      "direction": "N",
+      "samples": 51,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "57",
+      "direction": "S",
+      "samples": 60,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "60",
+      "direction": "E",
+      "samples": 33,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "60",
+      "direction": "W",
+      "samples": 87,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "605",
+      "direction": "N",
+      "samples": 59,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "605",
+      "direction": "S",
+      "samples": 114,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "710",
+      "direction": "N",
+      "samples": 20,
+      "stations": 2
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "710",
+      "direction": "S",
+      "samples": 20,
+      "stations": 2
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "91",
+      "direction": "E",
+      "samples": 64,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "VALIDATION",
+      "freeway": "91",
+      "direction": "W",
+      "samples": 43,
+      "stations": 4
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "10",
+      "direction": "E",
+      "samples": 254,
+      "stations": 25
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "10",
+      "direction": "W",
+      "samples": 370,
+      "stations": 29
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "101",
+      "direction": "N",
+      "samples": 103,
+      "stations": 8
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "101",
+      "direction": "S",
+      "samples": 99,
+      "stations": 10
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "110",
+      "direction": "N",
+      "samples": 16,
+      "stations": 1
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "110",
+      "direction": "S",
+      "samples": 29,
+      "stations": 1
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "134",
+      "direction": "E",
+      "samples": 35,
+      "stations": 7
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "134",
+      "direction": "W",
+      "samples": 26,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "14",
+      "direction": "N",
+      "samples": 27,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "14",
+      "direction": "S",
+      "samples": 225,
+      "stations": 4
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "2",
+      "direction": "E",
+      "samples": 5,
+      "stations": 1
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "2",
+      "direction": "W",
+      "samples": 10,
+      "stations": 2
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "210",
+      "direction": "E",
+      "samples": 383,
+      "stations": 28
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "210",
+      "direction": "W",
+      "samples": 421,
+      "stations": 30
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "405",
+      "direction": "N",
+      "samples": 22,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "405",
+      "direction": "S",
+      "samples": 20,
+      "stations": 4
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "47",
+      "direction": "N",
+      "samples": 98,
+      "stations": 1
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "5",
+      "direction": "N",
+      "samples": 69,
+      "stations": 5
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "5",
+      "direction": "S",
+      "samples": 169,
+      "stations": 8
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "57",
+      "direction": "N",
+      "samples": 25,
+      "stations": 5
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "57",
+      "direction": "S",
+      "samples": 37,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "60",
+      "direction": "E",
+      "samples": 62,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "60",
+      "direction": "W",
+      "samples": 53,
+      "stations": 6
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "605",
+      "direction": "N",
+      "samples": 94,
+      "stations": 5
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "605",
+      "direction": "S",
+      "samples": 68,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "710",
+      "direction": "N",
+      "samples": 53,
+      "stations": 4
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "710",
+      "direction": "S",
+      "samples": 49,
+      "stations": 3
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "91",
+      "direction": "E",
+      "samples": 121,
+      "stations": 12
+    },
+    {
+      "horizon": "H60",
+      "split": "TEST",
+      "freeway": "91",
+      "direction": "W",
+      "samples": 90,
+      "stations": 8
+    }
+  ],
+  "source_canonical_files": 243
+}

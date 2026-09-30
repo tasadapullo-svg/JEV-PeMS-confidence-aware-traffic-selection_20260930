@@ -1,0 +1,97 @@
+{
+  "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "cpu_logical_threads": 12,
+  "ram_total_gb": 67.865284608,
+  "gpu": "NVIDIA RTX A3000 Laptop GPU",
+  "gpu_vram_gb": 6.0,
+  "pilot_rows": {
+    "train": 278383,
+    "validation": 50128,
+    "test": 52857
+  },
+  "xgboost": {
+    "training_seconds": 3.184505599999966,
+    "device": "cuda",
+    "model_size_MB": 4.457919,
+    "peak_ram_gb": 1.163390976,
+    "best_iteration": 178,
+    "category_fit_source": "PILOT_TRAIN_ONLY",
+    "early_stopping_source": "PILOT_VALIDATION_ONLY",
+    "cuda_fallback_reason": null,
+    "test_inference_seconds": 0.12850470000012137,
+    "samples_per_second": 411323.47688411456
+  },
+  "gru": {
+    "device": "cpu",
+    "gpu_model": null,
+    "epochs_completed": 26,
+    "best_epoch": 21,
+    "batch_size": 2048,
+    "seconds_per_epoch": [
+      7.442634400000088,
+      7.207092999999986,
+      7.1476073999997425,
+      7.248273700000027,
+      7.246783399999913,
+      7.22536429999991,
+      7.275607100000343,
+      7.04899099999966,
+      7.200287499999831,
+      7.042212299999846,
+      7.030076200000167,
+      6.9955221000000165,
+      7.031119499999932,
+      6.961865899999793,
+      7.103248999999778,
+      7.0500835999996525,
+      7.227455900000223,
+      7.765774500000134,
+      7.532870399999865,
+      7.091451199999938,
+      7.0588918000003105,
+      7.170887900000253,
+      7.203210300000137,
+      7.032431199999792,
+      7.063858100000289,
+      7.092247999999927
+    ],
+    "seconds_per_epoch_median": 7.12542819999976,
+    "estimated_30_epoch_time": 213.7628459999928,
+    "training_seconds": 186.5068275000001,
+    "peak_ram_gb": 1.28530432,
+    "peak_vram_gb": null,
+    "model_size_MB": 0.076621,
+    "runtime_limit": false,
+    "scaler_fit_source": "PILOT_TRAIN_ONLY",
+    "early_stopping_source": "PILOT_VALIDATION_ONLY",
+    "validation_mse_best": 24.360002222435565,
+    "test_inference_seconds": 0.22415170000022044,
+    "samples_per_second": 235809.05252981806,
+    "batch_inference_latency_seconds": 0.22415170000022044
+  },
+  "historical_average_test_fallback_counts": {
+    "exact": 0,
+    "station_slot": 52558,
+    "station_overall": 287,
+    "global": 12
+  },
+  "full_h30_estimate": {
+    "status": "ESTIMATE_ONLY",
+    "pilot_to_full_train_row_ratio": 31.262296907497944,
+    "xgboost_full_train_seconds": 99.55495957078882,
+    "gru_full_seconds_per_epoch": 222.75725198145113,
+    "gru_10_epochs_seconds": 2227.5725198145115,
+    "gru_20_epochs_seconds": 4455.145039629023,
+    "gru_30_epochs_seconds": 6682.717559443534,
+    "limitations": [
+      "ESTIMATE_ONLY: scaling from a five-day pilot is not guaranteed linear.",
+      "The full dataset can change RAM, GPU VRAM, I/O and early-stopping behavior."
+    ]
+  },
+  "historical_average_test_fallback_proportions": {
+    "exact": 0.0,
+    "station_slot": 0.9943432279546701,
+    "station_overall": 0.0054297444047146076,
+    "global": 0.0002270276406152449
+  }
+}
