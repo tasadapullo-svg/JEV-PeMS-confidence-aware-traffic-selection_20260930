@@ -1,0 +1,15 @@
+﻿split,fallback_level,count,percentage
+validation,1,0,0.0
+validation,2,45527,86.13239495241879
+validation,3,7300,13.8108481374274
+validation,4,0,0.0
+validation,5,30,0.05675691015381123
+validation,6,0,0.0
+validation,7,0,0.0
+test,1,0,0.0
+test,2,44999,86.78521147133131
+test,3,5382,10.379741952903512
+test,4,0,0.0
+test,5,1470,2.8350465757651735
+test,6,0,0.0
+test,7,0,0.0

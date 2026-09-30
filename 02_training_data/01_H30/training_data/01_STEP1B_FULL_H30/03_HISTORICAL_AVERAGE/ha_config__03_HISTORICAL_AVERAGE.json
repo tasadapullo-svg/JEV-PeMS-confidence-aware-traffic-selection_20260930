@@ -1,0 +1,36 @@
+{
+  "levels": [
+    [
+      "station_id",
+      "day_of_week",
+      "slot"
+    ],
+    [
+      "station_id",
+      "slot"
+    ],
+    [
+      "station_id"
+    ],
+    [
+      "freeway",
+      "direction",
+      "day_of_week",
+      "slot"
+    ],
+    [
+      "freeway",
+      "direction",
+      "slot"
+    ],
+    [
+      "day_of_week",
+      "slot"
+    ],
+    [
+      "global_train_mean"
+    ]
+  ],
+  "fit_source": "TRAIN_ONLY",
+  "training_seconds": 1.9742341999990458
+}

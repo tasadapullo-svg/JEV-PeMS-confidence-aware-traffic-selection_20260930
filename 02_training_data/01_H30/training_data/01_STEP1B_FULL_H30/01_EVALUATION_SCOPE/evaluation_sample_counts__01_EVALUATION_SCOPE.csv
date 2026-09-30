@@ -1,0 +1,4 @@
+﻿split,rows,stations,seen_rows
+train,8702892,392,8702892
+validation,1505050,212,1477046
+test,3239727,256,2951376

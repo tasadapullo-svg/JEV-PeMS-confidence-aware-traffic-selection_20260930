@@ -1,0 +1,10 @@
+{
+  "device": "cpu",
+  "training_seconds": 0.4971205000001646,
+  "feature_prepare_seconds": 0.057615400000031514,
+  "best_iteration": 19,
+  "train_rows": 50128,
+  "primary_validation_rows": 52857,
+  "peak_ram_gb": 0.689025024,
+  "early_stopping_source": "PRIMARY_VALIDATION_ONLY"
+}

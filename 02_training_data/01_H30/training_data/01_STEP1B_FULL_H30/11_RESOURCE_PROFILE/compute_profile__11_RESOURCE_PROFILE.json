@@ -1,0 +1,64 @@
+{
+  "Persistence": {
+    "training_seconds": 0
+  },
+  "HistoricalAverage": {
+    "levels": [
+      [
+        "station_id",
+        "day_of_week",
+        "slot"
+      ],
+      [
+        "station_id",
+        "slot"
+      ],
+      [
+        "station_id"
+      ],
+      [
+        "freeway",
+        "direction",
+        "day_of_week",
+        "slot"
+      ],
+      [
+        "freeway",
+        "direction",
+        "slot"
+      ],
+      [
+        "day_of_week",
+        "slot"
+      ],
+      [
+        "global_train_mean"
+      ]
+    ],
+    "fit_source": "TRAIN_ONLY",
+    "training_seconds": 1.9742341999990458
+  },
+  "XGBoost": {
+    "device": "cpu",
+    "training_seconds": 1015.5977333999999,
+    "feature_prepare_seconds": 6.995605500000238,
+    "best_iteration": 1999,
+    "train_rows": 8702892,
+    "primary_validation_rows": 1477046,
+    "peak_ram_gb": 12.20466688,
+    "early_stopping_source": "PRIMARY_VALIDATION_ONLY"
+  },
+  "GRU": {
+    "device": "cpu",
+    "training_seconds": 6869.865578599998,
+    "epochs_completed": 27,
+    "best_epoch": 22,
+    "median_train_seconds_per_epoch": 226.11241340000015,
+    "median_validation_seconds_per_epoch": 26.150731699999596,
+    "batch_size": 2048,
+    "peak_ram_gb": 12.100296704,
+    "early_stopping_source": "PRIMARY_VALIDATION_ONLY"
+  },
+  "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "ram_total_gb": 67.865284608
+}

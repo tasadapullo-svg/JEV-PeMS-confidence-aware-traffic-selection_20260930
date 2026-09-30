@@ -1,0 +1,11 @@
+{
+  "device": "cpu",
+  "training_seconds": 6869.865578599998,
+  "epochs_completed": 27,
+  "best_epoch": 22,
+  "median_train_seconds_per_epoch": 226.11241340000015,
+  "median_validation_seconds_per_epoch": 26.150731699999596,
+  "batch_size": 2048,
+  "peak_ram_gb": 12.100296704,
+  "early_stopping_source": "PRIMARY_VALIDATION_ONLY"
+}

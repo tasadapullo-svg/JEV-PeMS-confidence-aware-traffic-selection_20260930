@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14",
+  "torch": "2.14.0+cpu",
+  "torch_cuda_version": null,
+  "cuda_available": false,
+  "cuda_device_count": 0,
+  "gpu_name": "NVIDIA RTX A3000 Laptop GPU",
+  "gpu_vram_gb": 6.0,
+  "tensor_test": "FAIL",
+  "gru_forward_test": "FAIL",
+  "gru_backward_test": "FAIL",
+  "optimizer_step_test": "FAIL",
+  "cuda_preflight": "FAIL",
+  "issues": [
+    "Installed PyTorch is a CPU-only build; torch.version.cuda is null.",
+    "torch.cuda.is_available() is false; CUDA tensor and GRU tests cannot run."
+  ],
+  "nvidia_smi": "PASS",
+  "nvidia_driver": "596.72"
+}

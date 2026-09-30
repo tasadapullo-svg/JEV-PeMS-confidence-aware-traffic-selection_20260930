@@ -1,0 +1,19 @@
+{
+  "xgb_best_iteration": 19,
+  "gru_best_epoch": 1,
+  "xgb_feature_set_locked": true,
+  "gru_architecture_locked": true,
+  "scaler_locked": true,
+  "encoder_locked": true,
+  "test_used_for_tuning": false,
+  "locked_before_test": true,
+  "training_complete": true,
+  "created_before_test_inference": "2026-09-22T11:18:29.305013+00:00",
+  "artifact_sha256": {
+    "04_XGBOOST/xgboost_H30.json": "cd67710cd09ab1f2f3956d527050b530797855b20709d4bf778d4c662797247f",
+    "04_XGBOOST/category_encoder.json": "85d21164bd48f501ba34fc535f37fa597e4fec6f83b2549ab1ed6aadda269ba2",
+    "05_GRU/gru_H30.pt": "a8a7c7393d1206b7589bee723626bc5712e68f5d5071dbd47c8ad311c0b077da",
+    "05_GRU/gru_scaler.json": "0ad36bf3a7cec2497adae8d899d83f687c1ee679627eec00047ec8849bbf2b2a"
+  },
+  "smoke": true
+}

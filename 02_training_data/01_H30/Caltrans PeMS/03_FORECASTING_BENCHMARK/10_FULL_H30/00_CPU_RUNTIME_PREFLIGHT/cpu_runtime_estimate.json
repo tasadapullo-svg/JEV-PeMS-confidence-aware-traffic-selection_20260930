@@ -1,0 +1,75 @@
+{
+  "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "cpu_threads": 12,
+  "ram_total_gb": 67.865284608,
+  "data_scope": {
+    "train_rows": 8702892,
+    "primary_validation_rows": 1477046,
+    "test_read": false,
+    "train_seen_validation_stations": 203
+  },
+  "xgboost": {
+    "full_train_rows": 8702892,
+    "device": "cpu",
+    "n_jobs": 12,
+    "tree_method": "hist",
+    "data_load_seconds": 1.217953899999884,
+    "feature_prepare_seconds": 6.763203800000156,
+    "training_seconds_100_trees": 71.53091659999973,
+    "seconds_per_tree": 0.7153091659999973,
+    "validation_inference_seconds": 0.45610630000010133,
+    "peak_ram_gb": 13.64328448,
+    "estimated_200_trees_minutes": 2.3843638866666574,
+    "estimated_500_trees_minutes": 5.960909716666644,
+    "estimated_1000_trees_minutes": 11.921819433333289,
+    "estimated_2000_trees_minutes": 23.843638866666577
+  },
+  "gru": {
+    "full_train_rows": 8702892,
+    "device": "cpu",
+    "batch_size": 2048,
+    "epochs_measured": 3,
+    "feature_prepare_seconds": 15.058572599999934,
+    "epochs": [
+      {
+        "epoch": 1,
+        "train_seconds": 219.9943257999994,
+        "validation_seconds": 25.875768699999753,
+        "total_epoch_seconds": 245.87009449999914,
+        "validation_mse": 37.124379097494256
+      },
+      {
+        "epoch": 2,
+        "train_seconds": 225.46892810000008,
+        "validation_seconds": 25.11628860000019,
+        "total_epoch_seconds": 250.58521670000027,
+        "validation_mse": 35.70711816995078
+      },
+      {
+        "epoch": 3,
+        "train_seconds": 218.58626959999947,
+        "validation_seconds": 25.177336800000376,
+        "total_epoch_seconds": 243.76360639999984,
+        "validation_mse": 34.84021110854452
+      }
+    ],
+    "median_train_seconds_per_epoch": 219.9943257999994,
+    "median_validation_seconds_per_epoch": 25.177336800000376,
+    "median_total_seconds_per_epoch": 245.87009449999914,
+    "peak_ram_gb": 12.766912512,
+    "estimated_5_epochs_hours": 0.3414862423611099,
+    "estimated_10_epochs_hours": 0.6829724847222198,
+    "estimated_15_epochs_hours": 1.0244587270833299,
+    "estimated_20_epochs_hours": 1.3659449694444397,
+    "estimated_25_epochs_hours": 1.7074312118055497,
+    "estimated_30_epochs_hours": 2.0489174541666597
+  },
+  "memory_risk": "LOW",
+  "peak_ram_fraction_of_total": 0.20103480827945608,
+  "cpu_full_step1b_assessment": "LOCAL_FEASIBLE",
+  "estimate_status": "ESTIMATE_ONLY",
+  "estimate_limitations": [
+    "Tree count and epoch projections assume approximate scaling; full early stopping, I/O, cache and RAM behavior can differ.",
+    "This run measured runtime only; no formal model or Test results were produced."
+  ]
+}

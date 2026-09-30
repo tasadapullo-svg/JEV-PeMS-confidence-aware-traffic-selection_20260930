@@ -1,0 +1,38 @@
+{
+  "variables": [
+    "speed",
+    "flow",
+    "occupancy",
+    "observed_pct",
+    "samples"
+  ],
+  "mean": [
+    61.75973892211914,
+    283.6799621582031,
+    0.07788451015949249,
+    99.64640045166016,
+    39.15916061401367
+  ],
+  "std": [
+    11.748127937316895,
+    175.13697814941406,
+    0.07406981289386749,
+    5.617093086242676,
+    6.271892070770264
+  ],
+  "fit_source": "TRAIN_ONLY",
+  "sequence_order": "lag11_to_lag00",
+  "context": [
+    "time_of_day_sin",
+    "time_of_day_cos",
+    "day_of_week_sin",
+    "day_of_week_cos",
+    "is_weekend",
+    "lanes",
+    "station_length",
+    "latitude",
+    "longitude",
+    "freeway_onehot",
+    "direction_onehot"
+  ]
+}

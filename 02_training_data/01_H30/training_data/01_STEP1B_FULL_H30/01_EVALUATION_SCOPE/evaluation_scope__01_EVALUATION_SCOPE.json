@@ -1,0 +1,22 @@
+{
+  "primary_task": "temporal generalization on stations observed in training",
+  "primary_validation": "validation AND station in train",
+  "primary_test": "test AND station in train",
+  "secondary_test": "full chronological test",
+  "robustness_test": "test stations absent from train",
+  "source": "station_overlap.json",
+  "train_rows": 8702892,
+  "train_stations": 392,
+  "primary_validation_rows": 1477046,
+  "primary_validation_stations": 203,
+  "primary_test_rows": 2951376,
+  "primary_test_stations": 231,
+  "full_test_rows": 3239727,
+  "full_test_stations": 256,
+  "unseen_test_rows": 288351,
+  "unseen_test_stations": 25,
+  "unseen_validation_rows": 28004,
+  "frozen": true,
+  "smoke": false,
+  "chronological_ranges_valid": true
+}
