@@ -1,0 +1,86 @@
+{
+  "feature_timestamp_after_t": 0,
+  "target_not_after_t": 0,
+  "horizon_elapsed_mismatch": 0,
+  "target100_violations": 0,
+  "split_leakage": 0,
+  "test_out_of_range": 0,
+  "duplicate_sample_ids": 0,
+  "duplicate_primary_keys": 0,
+  "source_canonical_files": 243,
+  "source_stable_stations": 1886,
+  "exclusions": {
+    "H30_TEST_INCOMPLETE_60MIN_HISTORY": 0,
+    "H30_TEST_MISSING_EXACT_FUTURE_ROW": 0,
+    "H30_TEST_MISSING_TARGET_SPEED": 0,
+    "H30_TEST_Q0_INCOMPLETE_60MIN_HISTORY": 0,
+    "H30_TEST_Q0_MISSING_TARGET_SPEED": 0,
+    "H30_TEST_SPLIT_BOUNDARY_EXCLUSION": 0,
+    "H30_TEST_TEST_OUT_OF_RANGE": 11316,
+    "H30_TRAIN_INCOMPLETE_60MIN_HISTORY": 3234,
+    "H30_TRAIN_MISSING_EXACT_FUTURE_ROW": 0,
+    "H30_TRAIN_MISSING_TARGET_SPEED": 0,
+    "H30_TRAIN_Q0_INCOMPLETE_60MIN_HISTORY": 0,
+    "H30_TRAIN_Q0_MISSING_TARGET_SPEED": 0,
+    "H30_TRAIN_SPLIT_BOUNDARY_EXCLUSION": 11316,
+    "H30_VALIDATION_INCOMPLETE_60MIN_HISTORY": 711,
+    "H30_VALIDATION_MISSING_EXACT_FUTURE_ROW": 868,
+    "H30_VALIDATION_MISSING_TARGET_SPEED": 0,
+    "H30_VALIDATION_Q0_INCOMPLETE_60MIN_HISTORY": 0,
+    "H30_VALIDATION_Q0_MISSING_TARGET_SPEED": 0,
+    "H30_VALIDATION_SPLIT_BOUNDARY_EXCLUSION": 11316,
+    "H60_TEST_INCOMPLETE_60MIN_HISTORY": 0,
+    "H60_TEST_MISSING_EXACT_FUTURE_ROW": 0,
+    "H60_TEST_MISSING_TARGET_SPEED": 0,
+    "H60_TEST_Q0_INCOMPLETE_60MIN_HISTORY": 0,
+    "H60_TEST_Q0_MISSING_TARGET_SPEED": 0,
+    "H60_TEST_SPLIT_BOUNDARY_EXCLUSION": 0,
+    "H60_TEST_TEST_OUT_OF_RANGE": 22632,
+    "H60_TRAIN_INCOMPLETE_60MIN_HISTORY": 3234,
+    "H60_TRAIN_MISSING_EXACT_FUTURE_ROW": 0,
+    "H60_TRAIN_MISSING_TARGET_SPEED": 0,
+    "H60_TRAIN_Q0_INCOMPLETE_60MIN_HISTORY": 0,
+    "H60_TRAIN_Q0_MISSING_TARGET_SPEED": 0,
+    "H60_TRAIN_SPLIT_BOUNDARY_EXCLUSION": 22632,
+    "H60_VALIDATION_INCOMPLETE_60MIN_HISTORY": 237,
+    "H60_VALIDATION_MISSING_EXACT_FUTURE_ROW": 868,
+    "H60_VALIDATION_MISSING_TARGET_SPEED": 0,
+    "H60_VALIDATION_Q0_INCOMPLETE_60MIN_HISTORY": 0,
+    "H60_VALIDATION_Q0_MISSING_TARGET_SPEED": 0,
+    "H60_VALIDATION_SPLIT_BOUNDARY_EXCLUSION": 22632
+  },
+  "step0c_q0_reconciliation": {
+    "H30_TRAIN": {
+      "step0c_q0_to_100": 14764,
+      "frozen_q0_to_100": 14764,
+      "difference": 0
+    },
+    "H30_VALIDATION": {
+      "step0c_q0_to_100": 1599,
+      "frozen_q0_to_100": 1599,
+      "difference": 0
+    },
+    "H30_TEST": {
+      "step0c_q0_to_100": 2214,
+      "frozen_q0_to_100": 2214,
+      "difference": 0
+    },
+    "H60_TRAIN": {
+      "step0c_q0_to_100": 27404,
+      "frozen_q0_to_100": 27404,
+      "difference": 0
+    },
+    "H60_VALIDATION": {
+      "step0c_q0_to_100": 2512,
+      "frozen_q0_to_100": 2512,
+      "difference": 0
+    },
+    "H60_TEST": {
+      "step0c_q0_to_100": 3033,
+      "frozen_q0_to_100": 3033,
+      "difference": 0
+    }
+  },
+  "unexplained_differences": [],
+  "status": "PASS"
+}

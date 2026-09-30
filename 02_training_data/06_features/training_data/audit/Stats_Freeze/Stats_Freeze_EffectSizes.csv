@@ -1,0 +1,6 @@
+﻿domain,natural_scale,standardized_or_relative
+selection,Delta mean normalized regret,paired Cohen dz using station-level differences
+downstream,Delta MAE (mph),relative MAE difference (%)
+calibration,Delta Brier; Delta NLL,none
+risk-coverage,Delta AURC,relative AURC reduction (%)
+binary metrics,percentage-point difference,none

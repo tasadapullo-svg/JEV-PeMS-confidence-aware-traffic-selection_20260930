@@ -1,0 +1,12 @@
+﻿hypothesis_id,comparison,difference,direction
+P1,JEV vs Quality Rule,JEV - Quality Rule,two-sided: != 0
+P2,JEV vs XGBoost,JEV - XGBoost,two-sided: != 0
+P3,JEV vs GRU,JEV - GRU,two-sided: != 0
+P4,Full JEV confidence vs random retention,AURC_JEV - AURC_random,one-sided: < 0
+C1,Platt vs Raw Identity,Brier_Platt - Brier_Raw,one-sided: < 0
+C2,Platt vs constant Validation Base Rate,Brier_Platt - Brier_BaseRate,one-sided: < 0
+C3,Full JEV confidence vs Margin-only,AURC_Full - AURC_Margin,one-sided: < 0
+B1,JEV vs Quality Rule within oracle_gap <= 0.5 mph,JEV - Quality Rule,one-sided: < 0
+B2,JEV vs Quality Rule within frozen LOW_Q,JEV - Quality Rule,one-sided: < 0
+B3,JEV vs Nearest within frozen FAR,JEV - Nearest,one-sided: < 0
+B4,JEV vs Quality Rule on LA weekdays,JEV - Quality Rule,one-sided: > 0

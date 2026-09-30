@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "stats_freeze_status": "IMMUTABLE",
+  "combined_stats_freeze_sha256": "1c94afc2556239e43bc0880db3204bd3c0d0d8b145567b9bf738689d3c12f1bc",
+  "step2h_freeze_sha256": "ae074c77f04af849550eb72bf7f513b838da81afd4aa66de7a81ae8a0e845f60",
+  "validation_n": 1431,
+  "final_platt_coefficient": 4.4469702554137545,
+  "final_platt_intercept": -0.4434413478501471,
+  "FINAL_BASE_RATE": 0.4192872117400419,
+  "raw_confidence_q75": 0.031266923959426346,
+  "final_platt_model_sha256": "8d742b6720ecf49118beb348017d6cfc7bdfc59afec639fcc59ab5c945997629",
+  "test_loaded": false,
+  "final_test_executed": false,
+  "python": "3.12.14",
+  "sklearn": "1.9.1"
+}

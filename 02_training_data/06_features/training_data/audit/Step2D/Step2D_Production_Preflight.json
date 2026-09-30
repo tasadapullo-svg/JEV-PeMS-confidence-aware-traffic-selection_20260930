@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "checks": {
+    "mode_production": true,
+    "jev_version_1_0": true,
+    "selected_method_platt_config": true,
+    "input_split_cal_eval": true,
+    "expected_n_325": true,
+    "primary_risk_normalized_regret": true,
+    "coverage_levels_frozen": true,
+    "aurc_definition_frozen": true,
+    "random_repetitions_1000": true,
+    "bootstrap_repetitions_2000": true,
+    "bootstrap_cluster_target_station": true,
+    "seed_20260924": true,
+    "test_zero_held_out": true,
+    "all_inputs_exist": true,
+    "step2c_qc_pass": true,
+    "step2c_selected_method_platt": true,
+    "platt_positive_slope": true,
+    "cal_eval_n_325": true,
+    "normalized_regret_exists": true,
+    "raw_regret_exists": true,
+    "platt_probability_exists": true,
+    "jev_raw_confidence_exists": true,
+    "timestamps_exist": true,
+    "target_station_exists": true,
+    "test_rows_zero": true,
+    "optional_candidate_scores_audited": true,
+    "output_directory_writable": true,
+    "workbook_runtime_available": true,
+    "no_completed_step2d_production": true
+  },
+  "failures": [],
+  "optional_baselines": [
+    {
+      "system": "Quality Rule",
+      "status": "AVAILABLE",
+      "n": 325,
+      "candidate_k": 5,
+      "selected_source_matches_rank1": true
+    },
+    {
+      "system": "XGBoost",
+      "status": "AVAILABLE",
+      "n": 325,
+      "candidate_k": 5,
+      "selected_source_matches_rank1": true
+    },
+    {
+      "system": "GRU",
+      "status": "AVAILABLE",
+      "n": 325,
+      "candidate_k": 5,
+      "selected_source_matches_rank1": true
+    }
+  ],
+  "formal_step2d_production_results_exist": false,
+  "test_loaded": false,
+  "test_target_samples": 0,
+  "test_split_status": "HELD_OUT_NOT_LOADED",
+  "formal_step2d_production_executed": false,
+  "checked_at_utc": "2026-09-23T17:06:07.801339+00:00"
+}

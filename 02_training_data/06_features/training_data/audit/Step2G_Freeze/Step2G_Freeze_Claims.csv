@@ -1,0 +1,8 @@
+claim,value,source
+Step2G production,PASS,Step2G_QC.json
+Validation N,1431,Step2G_Selection_Ablation_Summary.csv
+FULL mean normalized regret,0.4002678129590731,Step2G_Selection_Ablation_Summary.csv
+MINUS_Q relative degradation pct,8.424086373008132,Step2G_Selection_Ablation_Summary.csv
+Full confidence AURC,0.3763864326306924,Step2G_Confidence_Ablation_Summary.csv
+Selected-Q confidence ties,232,Step2G_Confidence_Ablation_Summary.csv
+Test status,HELD_OUT_NOT_LOADED,Step2G_QC.json

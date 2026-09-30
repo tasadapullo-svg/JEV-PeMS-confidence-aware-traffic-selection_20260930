@@ -1,0 +1,7 @@
+﻿claim,value,basis
+Test access at freeze,NO,No Test reader invoked; FINAL_TEST_OPENED absent
+Final Platt family,Platt; no reselection,Step2C frozen family
+Validation N,1431,frozen Step2B JEV Validation rows
+Primary station universe,171,frozen production protocol
+Candidate K,5,frozen production protocol
+Confirmatory families,PRIMARY|CONFIDENCE|BOUNDARY_REPLICATION,Stats Freeze

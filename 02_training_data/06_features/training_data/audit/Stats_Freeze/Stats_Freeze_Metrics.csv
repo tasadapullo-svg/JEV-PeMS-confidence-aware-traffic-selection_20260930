@@ -1,0 +1,15 @@
+﻿domain,metric,role,definition
+selection,mean normalized regret,primary,mean((selected_loss-oracle_loss)/(worst_loss-oracle_loss)); frozen zero-spread handling
+selection,median normalized regret,secondary,median normalized regret
+selection,mean raw regret_mph,secondary,mean selected_loss-oracle_loss
+selection,median raw regret_mph,secondary,median selected_loss-oracle_loss
+selection,exact Top1,secondary,selected source equals oracle source
+selection,Top2 hit,secondary,selected source belongs to best two candidates
+selection,near-oracle hit,secondary,raw regret <= 0.5 mph
+calibration,Brier,primary,mean((p-y)^2)
+calibration,NLL,secondary,binary negative log likelihood
+calibration,ECE,secondary,10 equal-width probability bins
+risk-coverage,AURC,primary,mean cumulative normalized-regret risk across k=1..N after descending confidence sort; no smoothing
+downstream,MAE,primary,"frozen evaluator absolute error, mph"
+downstream,RMSE,secondary,"root mean square error, mph"
+downstream,sMAPE,secondary,epsilon=1e-6

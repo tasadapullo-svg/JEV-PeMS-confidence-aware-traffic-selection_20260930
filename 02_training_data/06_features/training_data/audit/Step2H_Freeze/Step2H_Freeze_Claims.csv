@@ -1,0 +1,11 @@
+claim,value,source
+Step2H production,PASS,Step2H_QC.json
+Validation N,1431,Step2H_QC.json
+Primary stations,171,Step2H_QC.json
+Test loaded,False,Step2H_Integrity_Audit.json
+SPREAD p33/p67,2.7426681518554688|5.247722625732422,Step2H_Boundary_Thresholds.csv
+QUALITY_LEVEL p33/p67,0.1566838150406092|0.2690626698356321,Step2H_Boundary_Thresholds.csv
+QUALITY_HETEROGENEITY p33/p67,0.0943337387345246|0.2803315825347821,Step2H_Boundary_Thresholds.csv
+VOLATILITY p33/p67,0.0996942712765851|0.2244451267285925,Step2H_Boundary_Thresholds.csv
+DISTANCE p33/p67,0.7390000000000001|1.014000000000001,Step2H_Boundary_Thresholds.csv
+HIGH_CONFIDENCE p33/p67,nan|0.4366091582129623,Step2H_Boundary_Thresholds.csv

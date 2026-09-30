@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "checks": {
+    "mode_production": true,
+    "jev_version_1_0": true,
+    "near_oracle_threshold_0p5": true,
+    "split_rule_unique_timestamp_chronological": true,
+    "calibration_methods_exact": true,
+    "ece_bins_10": true,
+    "nll_epsilon_1e_12": true,
+    "test_held_out": true,
+    "input_files_exist": true,
+    "step2b_qc_pass": true,
+    "step2b_test_zero": true,
+    "step2b_jev_frozen_metadata": true,
+    "jev_weights_unchanged": true,
+    "jev_selector_model_unchanged": true,
+    "jev_validation_denominator_1431": true,
+    "test_rows_zero": true,
+    "raw_confidence_exists": true,
+    "regret_exists": true,
+    "timestamps_exist": true,
+    "raw_confidence_finite_bounded": true,
+    "required_packages_available": true,
+    "workbook_runtime_available": true,
+    "output_directory_writable": true,
+    "required_output_contract_complete": true,
+    "no_completed_production_exists_or_recovery": true
+  },
+  "failures": [],
+  "audit_items": {
+    "full_step2c_production_not_executed": true,
+    "partial_production_files_present": true,
+    "recovery_mode": false
+  },
+  "formal_production_results_exist": false,
+  "completion_evidence": null,
+  "test_loaded": false,
+  "test_target_samples": 0,
+  "test_split_status": "HELD_OUT_NOT_LOADED",
+  "full_step2c_production_executed": false,
+  "checked_at_utc": "2026-09-23T15:47:42.565158+00:00"
+}

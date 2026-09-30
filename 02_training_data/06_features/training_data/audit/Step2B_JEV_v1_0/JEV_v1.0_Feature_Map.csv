@@ -1,0 +1,14 @@
+evidence,input_feature,transform,fit_scope,max_information_time
+Q,recent_observed_mean_60,robust_scale,Train only,t
+Q,recent_observed_min_60,robust_scale,Train only,t
+Q,recent_missing_count_60,1 - robust_scale,Train only,t
+Q,train_candidate_observed_mean,robust_scale,Train only,t
+S,speed_std_60,1 - mean adverse magnitude,Train only,t
+S,speed_range_60,1 - mean adverse magnitude,Train only,t
+S,speed_slope_60,robust_scale(abs(x)) adverse magnitude,Train only,t
+S,speed_delta_15,robust_scale(abs(x)) adverse magnitude,Train only,t
+S,speed_delta_30,robust_scale(abs(x)) adverse magnitude,Train only,t
+D,abs_postmile_distance,exp(-x/tau_d),Train tau_d only,t
+C,speed_lag00,abs(current-mean)/(std+epsilon),None,t
+C,speed_mean_60,abs(current-mean)/(std+epsilon),None,t
+C,speed_std_60,abs(current-mean)/(std+epsilon),None,t

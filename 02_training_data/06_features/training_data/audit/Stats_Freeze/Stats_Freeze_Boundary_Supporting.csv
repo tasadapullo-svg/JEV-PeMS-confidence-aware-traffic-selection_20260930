@@ -1,0 +1,17 @@
+﻿analysis,role,descriptive_min_n,allowed,confirmatory_test
+clear separation,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+loss-spread tertiles,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+mid/high candidate quality,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+quality heterogeneity,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+volatility,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+near/medium distance,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+AM peak,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+PM peak,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+off-peak,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+weekend,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+severe failure,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+extreme failure,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+high-confidence severe failure,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+context correlations,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+evaluator-sensitive pair-strata,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE
+cross-evaluator direction consistency,SUPPORTING_ONLY,20,N; means; paired differences; 95% CI,NONE

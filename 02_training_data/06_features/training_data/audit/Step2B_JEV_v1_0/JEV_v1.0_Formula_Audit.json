@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "status": "PASS",
+  "score_interpretation": "additive convex combination implied by nonnegative simplex weights",
+  "checks": {
+    "four_components_exactly": true,
+    "components_named_Q_S_D_C": true,
+    "all_inputs_causal_at_t_or_earlier": true,
+    "normalization_train_only": true,
+    "normalization_percentiles_5_95": true,
+    "degenerate_scaler_constant_0p5": true,
+    "tau_d_train_median": true,
+    "epsilon_1e_minus_6": true,
+    "z_clip_max_10": true,
+    "relative_utility_train_label_only": true,
+    "weights_nonnegative_sum_one": true,
+    "optimizer_SLSQP": true,
+    "initial_weights_equal_quarters": true,
+    "selection_argmax": true,
+    "tie_break_frozen": true,
+    "confidence_margin_times_selected_Q": true,
+    "no_calibration_or_abstention": true,
+    "test_sealed": true
+  },
+  "forbidden_selector_inputs": ["candidate_loss", "oracle_source", "oracle_rank", "oracle_gap", "best_worst_spread", "normalized_spread", "future target speed", "future candidate observations", "Test-derived statistics"]
+}

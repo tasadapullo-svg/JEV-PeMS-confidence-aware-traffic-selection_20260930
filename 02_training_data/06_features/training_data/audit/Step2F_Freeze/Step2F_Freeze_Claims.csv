@@ -1,0 +1,9 @@
+claim,value,source
+Step2F production,PASS,Step2F_QC.json
+Primary evaluator,Frozen Step1B H30 XGBoost,Step2F_Downstream_Model_Audit.json
+Validation N,1431,Step2F_Method_Summary.csv
+JEV primary MAE,3.490834176831942,Step2F_Method_Summary.csv
+JEV primary rank,4,Step2F_Method_Summary.csv
+Independent evaluator,Frozen Step1B H30 GRU,Step2F_Independent_Evaluator_Audit.json
+JEV independent MAE,3.738921328743882,Step2F_Independent_Evaluator_Sensitivity.csv
+Test status,HELD_OUT_NOT_LOADED,Step2F_QC.json

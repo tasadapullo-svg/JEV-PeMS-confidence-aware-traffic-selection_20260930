@@ -1,0 +1,12 @@
+﻿hypothesis_id,family,endpoint,comparison,difference,alternative,procedure,confirmatory
+P1,PRIMARY,mean normalized regret,JEV vs Quality Rule,JEV - Quality Rule,two-sided: != 0,station-mean paired sign-flip,True
+P2,PRIMARY,mean normalized regret,JEV vs XGBoost,JEV - XGBoost,two-sided: != 0,station-mean paired sign-flip,True
+P3,PRIMARY,mean normalized regret,JEV vs GRU,JEV - GRU,two-sided: != 0,station-mean paired sign-flip,True
+P4,PRIMARY,AURC,Full JEV confidence vs random retention,AURC_JEV - AURC_random,one-sided: < 0,10000 random rankings; p=(1+count(random AURC <= observed))/(10001),True
+C1,CONFIDENCE,Brier score,Platt vs Raw Identity,Brier_Platt - Brier_Raw,one-sided: < 0,station-aggregated paired sign-flip,True
+C2,CONFIDENCE,Brier score,Platt vs constant Validation Base Rate,Brier_Platt - Brier_BaseRate,one-sided: < 0,station-aggregated paired sign-flip,True
+C3,CONFIDENCE,AURC,Full JEV confidence vs Margin-only,AURC_Full - AURC_Margin,one-sided: < 0,station-cluster bootstrap DeltaAURC,True
+B1,BOUNDARY_REPLICATION,mean normalized regret,JEV vs Quality Rule within oracle_gap <= 0.5 mph,JEV - Quality Rule,one-sided: < 0,station inference; eligibility N>=30 and stations>=10,True
+B2,BOUNDARY_REPLICATION,mean normalized regret,JEV vs Quality Rule within frozen LOW_Q,JEV - Quality Rule,one-sided: < 0,station inference; eligibility N>=30 and stations>=10,True
+B3,BOUNDARY_REPLICATION,mean normalized regret,JEV vs Nearest within frozen FAR,JEV - Nearest,one-sided: < 0,station inference; eligibility N>=30 and stations>=10,True
+B4,BOUNDARY_REPLICATION,mean normalized regret,JEV vs Quality Rule on LA weekdays,JEV - Quality Rule,one-sided: > 0,station inference; eligibility N>=30 and stations>=10,True

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "calibration_family": "Platt",
+  "family_reselection": false,
+  "fit_split": "ALL_FROZEN_STEP2B_VALIDATION",
+  "validation_n": 1431,
+  "target_definition": "1 if raw_regret_mph <= 0.5 else 0",
+  "input": "frozen JEV raw confidence",
+  "coefficient": 4.4469702554137545,
+  "intercept": -0.4434413478501471,
+  "validation_prevalence": 0.4192872117400419,
+  "FINAL_BASE_RATE": 0.4192872117400419,
+  "raw_confidence_q75": 0.031266923959426346,
+  "monotonic_increasing": true,
+  "model_sha256": "8d742b6720ecf49118beb348017d6cfc7bdfc59afec639fcc59ab5c945997629",
+  "input_sha256": "51edf012d8864f8b67b74b2fd54de8380100926b2db7ecd7833dea4731893d7c",
+  "source_predictions_sha256": "3779d59ae4da119743510c891aaf51b45405f9cd958c76cac62526c0afb05037",
+  "test_loaded": false
+}

@@ -1,0 +1,7 @@
+claim,value,source
+Step2D production,PASS,Step2D_QC.json
+CAL_EVAL N,325,Step2D_AURC_Summary.csv
+JEV AURC,0.3763864326306924,Step2D_AURC_Summary.csv
+JEV random AURC mean,0.4359074100199507,Step2D_Random_Reference.csv
+Platt/raw rank equivalent,True,Step2D_QC.json
+Test status,HELD_OUT_NOT_LOADED,Step2D_QC.json

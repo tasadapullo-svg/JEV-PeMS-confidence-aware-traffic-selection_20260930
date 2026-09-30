@@ -1,0 +1,5 @@
+﻿scope,horizon_minutes,stations,stations_with_eligible_target,eligible_samples_P10,eligible_samples_P25,eligible_samples_median,eligible_samples_P75,eligible_samples_P90,eligible_days_P10,eligible_days_P25,eligible_days_median,eligible_days_P75,eligible_days_P90
+ALL,30,1936,424,0.0,0.0,0.0,0.0,30314.5,0.0,0.0,0.0,0.0,123.0
+STABLE,30,1886,420,0.0,0.0,0.0,0.0,30915.5,0.0,0.0,0.0,0.0,128.0
+ALL,60,1936,424,0.0,0.0,0.0,0.0,30311.5,0.0,0.0,0.0,0.0,123.0
+STABLE,60,1886,420,0.0,0.0,0.0,0.0,30912.5,0.0,0.0,0.0,0.0,128.0

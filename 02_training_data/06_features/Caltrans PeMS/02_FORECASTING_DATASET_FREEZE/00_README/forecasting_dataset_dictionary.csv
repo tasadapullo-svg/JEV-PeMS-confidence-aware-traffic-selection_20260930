@@ -1,0 +1,101 @@
+﻿feature,definition,unit,time_reference,source,model_role,leakage_safe,notes
+sample_id,sample id,,t or earlier,Step 1A,identifier,YES,
+station_id,station id,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+prediction_timestamp_local,prediction timestamp local,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+prediction_timestamp_utc,prediction timestamp utc,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+target_timestamp_local,target timestamp local,,t+h,PeMS raw / stable 2023-12-22 station metadata,forecasting target,NO — target only,
+target_timestamp_utc,target timestamp utc,,t+h,PeMS raw / stable 2023-12-22 station metadata,forecasting target,NO — target only,
+split,split,,t or earlier,Step 1A,identifier,YES,
+horizon,horizon,,t or earlier,Step 1A,identifier,YES,
+freeway,freeway,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+direction,direction,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+latitude,latitude,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+longitude,longitude,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+lanes,lanes,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+station_length,Stable baseline PeMS station length,miles,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+speed_lag00,Raw PeMS speed at t-0 elapsed minutes,mph,t-0 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_lag01,Raw PeMS speed at t-5 elapsed minutes,mph,t-5 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_lag02,Raw PeMS speed at t-10 elapsed minutes,mph,t-10 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_lag03,Raw PeMS speed at t-15 elapsed minutes,mph,t-15 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_lag04,Raw PeMS speed at t-20 elapsed minutes,mph,t-20 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_lag05,Raw PeMS speed at t-25 elapsed minutes,mph,t-25 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_lag06,Raw PeMS speed at t-30 elapsed minutes,mph,t-30 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_lag07,Raw PeMS speed at t-35 elapsed minutes,mph,t-35 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_lag08,Raw PeMS speed at t-40 elapsed minutes,mph,t-40 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_lag09,Raw PeMS speed at t-45 elapsed minutes,mph,t-45 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_lag10,Raw PeMS speed at t-50 elapsed minutes,mph,t-50 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_lag11,Raw PeMS speed at t-55 elapsed minutes,mph,t-55 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+speed_mean_60m,speed mean 60m,mph,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+speed_std_60m,speed std 60m,mph,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+speed_min_60m,speed min 60m,mph,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+speed_max_60m,speed max 60m,mph,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+flow_lag00,Raw PeMS flow at t-0 elapsed minutes,vehicles/5min,t-0 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_lag01,Raw PeMS flow at t-5 elapsed minutes,vehicles/5min,t-5 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_lag02,Raw PeMS flow at t-10 elapsed minutes,vehicles/5min,t-10 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_lag03,Raw PeMS flow at t-15 elapsed minutes,vehicles/5min,t-15 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_lag04,Raw PeMS flow at t-20 elapsed minutes,vehicles/5min,t-20 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_lag05,Raw PeMS flow at t-25 elapsed minutes,vehicles/5min,t-25 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_lag06,Raw PeMS flow at t-30 elapsed minutes,vehicles/5min,t-30 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_lag07,Raw PeMS flow at t-35 elapsed minutes,vehicles/5min,t-35 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_lag08,Raw PeMS flow at t-40 elapsed minutes,vehicles/5min,t-40 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_lag09,Raw PeMS flow at t-45 elapsed minutes,vehicles/5min,t-45 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_lag10,Raw PeMS flow at t-50 elapsed minutes,vehicles/5min,t-50 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_lag11,Raw PeMS flow at t-55 elapsed minutes,vehicles/5min,t-55 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+flow_mean_60m,flow mean 60m,vehicles/5min,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+flow_std_60m,flow std 60m,vehicles/5min,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+occupancy_lag00,Raw PeMS occupancy at t-0 elapsed minutes,fraction,t-0 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_lag01,Raw PeMS occupancy at t-5 elapsed minutes,fraction,t-5 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_lag02,Raw PeMS occupancy at t-10 elapsed minutes,fraction,t-10 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_lag03,Raw PeMS occupancy at t-15 elapsed minutes,fraction,t-15 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_lag04,Raw PeMS occupancy at t-20 elapsed minutes,fraction,t-20 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_lag05,Raw PeMS occupancy at t-25 elapsed minutes,fraction,t-25 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_lag06,Raw PeMS occupancy at t-30 elapsed minutes,fraction,t-30 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_lag07,Raw PeMS occupancy at t-35 elapsed minutes,fraction,t-35 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_lag08,Raw PeMS occupancy at t-40 elapsed minutes,fraction,t-40 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_lag09,Raw PeMS occupancy at t-45 elapsed minutes,fraction,t-45 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_lag10,Raw PeMS occupancy at t-50 elapsed minutes,fraction,t-50 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_lag11,Raw PeMS occupancy at t-55 elapsed minutes,fraction,t-55 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+occupancy_mean_60m,occupancy mean 60m,fraction,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+occupancy_std_60m,occupancy std 60m,fraction,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+observed_pct_lag00,Raw PeMS observed_pct at t-0 elapsed minutes,percent,t-0 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_lag01,Raw PeMS observed_pct at t-5 elapsed minutes,percent,t-5 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_lag02,Raw PeMS observed_pct at t-10 elapsed minutes,percent,t-10 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_lag03,Raw PeMS observed_pct at t-15 elapsed minutes,percent,t-15 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_lag04,Raw PeMS observed_pct at t-20 elapsed minutes,percent,t-20 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_lag05,Raw PeMS observed_pct at t-25 elapsed minutes,percent,t-25 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_lag06,Raw PeMS observed_pct at t-30 elapsed minutes,percent,t-30 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_lag07,Raw PeMS observed_pct at t-35 elapsed minutes,percent,t-35 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_lag08,Raw PeMS observed_pct at t-40 elapsed minutes,percent,t-40 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_lag09,Raw PeMS observed_pct at t-45 elapsed minutes,percent,t-45 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_lag10,Raw PeMS observed_pct at t-50 elapsed minutes,percent,t-50 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_lag11,Raw PeMS observed_pct at t-55 elapsed minutes,percent,t-55 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+observed_pct_mean_60m,observed pct mean 60m,percent,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+observed_pct_min_60m,observed pct min 60m,percent,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+observed_pct_zero_count_60m,observed pct zero count 60m,percent,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+samples_lag00,Raw PeMS samples at t-0 elapsed minutes,5-min count,t-0 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+samples_lag01,Raw PeMS samples at t-5 elapsed minutes,5-min count,t-5 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+samples_lag02,Raw PeMS samples at t-10 elapsed minutes,5-min count,t-10 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+samples_lag03,Raw PeMS samples at t-15 elapsed minutes,5-min count,t-15 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+samples_lag04,Raw PeMS samples at t-20 elapsed minutes,5-min count,t-20 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+samples_lag05,Raw PeMS samples at t-25 elapsed minutes,5-min count,t-25 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+samples_lag06,Raw PeMS samples at t-30 elapsed minutes,5-min count,t-30 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+samples_lag07,Raw PeMS samples at t-35 elapsed minutes,5-min count,t-35 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+samples_lag08,Raw PeMS samples at t-40 elapsed minutes,5-min count,t-40 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+samples_lag09,Raw PeMS samples at t-45 elapsed minutes,5-min count,t-45 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+samples_lag10,Raw PeMS samples at t-50 elapsed minutes,5-min count,t-50 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+samples_lag11,Raw PeMS samples at t-55 elapsed minutes,5-min count,t-55 min,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,lag00 is t; lag11 is t-55 min; exact UTC 5-minute intervals
+input_observed_pct,input observed pct,percent,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+input_quality_bin,input quality bin,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+hour,hour,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+minute,minute,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+day_of_week,day of week,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+is_weekend,is weekend,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+time_of_day_sin,time of day sin,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+time_of_day_cos,time of day cos,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+day_of_week_sin,day of week sin,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+day_of_week_cos,day of week cos,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,
+speed_flag,Raw current value outside audit range; value retained,,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,speed <0 or >120 mph; flow <0; occupancy <0 or >1
+flow_flag,Raw current value outside audit range; value retained,vehicles/5min,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,speed <0 or >120 mph; flow <0; occupancy <0 or >1
+occupancy_flag,Raw current value outside audit range; value retained,fraction,t or earlier,PeMS raw / stable 2023-12-22 station metadata,forecasting input,YES,speed <0 or >120 mph; flow <0; occupancy <0 or >1
+target_speed,Future PeMS Avg Speed at exact t+h,mph,t+h,PeMS raw / stable 2023-12-22 station metadata,forecasting target,NO — target only,
+target_observed_pct,"Future PeMS percent observed, required to equal 100",percent,t+h,PeMS raw / stable 2023-12-22 station metadata,forecasting target,NO — target only,

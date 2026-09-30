@@ -1,0 +1,6 @@
+claim,value,source
+Step2E Production,PASS,Step2E_QC.json
+JEV median latency ms,0.9551138015415788,Step2E_Method_Efficiency_Summary.csv
+JEV throughput target-times/s,1046.99576695727,Step2E_Method_Efficiency_Summary.csv
+JEV mean normalized regret,0.4002678129590731,Step2E_Regret_Latency_SourceData.csv
+Test target samples,0,Step2E_QC.json

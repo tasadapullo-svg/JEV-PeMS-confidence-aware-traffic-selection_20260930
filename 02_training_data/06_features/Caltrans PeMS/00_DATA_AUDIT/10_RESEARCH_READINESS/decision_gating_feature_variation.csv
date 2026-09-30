@@ -1,0 +1,12 @@
+﻿feature,distinct_values,available_rows,variation,note
+avg_speed,815,124369609,HIGH,Observed distinct values; predictive utility not tested
+total_flow,1300,124369609,HIGH,Observed distinct values; predictive utility not tested
+avg_occupancy,8726,124369609,HIGH,Observed distinct values; predictive utility not tested
+percent_observed,13,124369609,MEDIUM,Observed distinct values; predictive utility not tested
+missingness,1,124369609,LOW,Missing values are retained
+recent_gap,2,124369609,MEDIUM,Gap events identified by station
+time_of_day,288,124369609,HIGH,Local five-minute slot
+day_of_week,7,124369609,HIGH,Calendar
+station,1936,124369609,HIGH,ML station ID
+freeway,23,124369609,HIGH,Metadata
+direction,4,124369609,MEDIUM,Metadata
