@@ -1,0 +1,26 @@
+# Local reconstruction outputs produced by reassemble_large_files.py.
+# Keep the committed byte-level parts (*.part001, *.part002, ...), but do not
+# accidentally commit the reassembled large originals, which exceed GitHub's
+# ordinary single-file safety threshold.
+
+01_raw_data/01_caltrans_pems/Caltrans PeMS/00_DATA_AUDIT/13_PERCENT_OBSERVED_SEMANTICS.zip
+02_training_data/01_H30/Caltrans PeMS/02_FORECASTING_DATASET_FREEZE/01_H30/test.parquet
+02_training_data/01_H30/Caltrans PeMS/02_FORECASTING_DATASET_FREEZE/01_H30/train.parquet
+02_training_data/01_H30/Caltrans PeMS/02_FORECASTING_DATASET_FREEZE/01_H30/validation.parquet
+02_training_data/02_H60/Caltrans PeMS/02_FORECASTING_DATASET_FREEZE/02_H60/test.parquet
+02_training_data/02_H60/Caltrans PeMS/02_FORECASTING_DATASET_FREEZE/02_H60/train.parquet
+02_training_data/02_H60/Caltrans PeMS/02_FORECASTING_DATASET_FREEZE/02_H60/validation.parquet
+02_training_data/01_H30/training_data/01_STEP1B_FULL_H30/04_XGBOOST/xgboost_H30.json
+09_model_outputs/predictions/training_data/01_STEP1B_FULL_H30/06_PREDICTIONS/test_predictions_H30.parquet
+09_model_outputs/predictions/training_data/01_STEP1B_FULL_H30/06_PREDICTIONS/validation_predictions_H30.parquet
+04_experiment_results/08_runtime_efficiency/training_data/results/Step2E/production/Step2E_Common_Feature_Cache.pkl
+training_data.zip
+
+# Common local and editor artifacts.
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+__pycache__/
+.ipynb_checkpoints/
+11_logs/qc_logs/final_path_leak_scan.json
