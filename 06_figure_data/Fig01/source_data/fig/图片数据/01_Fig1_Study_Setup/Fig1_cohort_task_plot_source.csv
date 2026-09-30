@@ -1,0 +1,10 @@
+﻿item,value,unit,provenance,note
+data_source,Caltrans PeMS District 7,,project frozen study setup,Mainline traffic data
+study_period_start,2026-01-01,date,project frozen study setup,January 2026
+study_period_end,2026-08-31,date,project frozen study setup,August 2026
+monitored_stations_raw,1936,stations,upstream Step0 audit / project frozen positioning,Raw ML station universe; upstream audit is referenced by the project but this exact raw count is not re-derived inside the packaged Step2A files
+stable_matched_stations,1886,stations,Step2A_Freeze_Config / candidate pool source universe,Stable matched mainline candidate-source universe
+H30_common_Q0_cohort,172,stations,Step2A_Freeze_Config,Three-split common Q0 H30 target universe
+primary_evaluable_cohort,171,stations,Step2A_QC / FinalTest_Cohort_Audit,Primary evaluable stations
+candidate_K,5,candidates per target-time,Step2A_Freeze_Config,Same freeway + same direction + nearest |Δ postmile|; target excluded
+main_horizon,H30,30 min,Step2A_Freeze_Config,Frozen downstream evaluation horizon

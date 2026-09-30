@@ -1,0 +1,2 @@
+Fig.2 is an experimental-workflow figure. Its numerical anchors are the frozen cohort, K=5 task construction, JEV weights, comparator list, Step2A–Step2H modules, Stats Freeze, and held-out Final Test protocol.
+The small charts/icons in the workflow are schematic motifs, not separate measured datasets.

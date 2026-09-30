@@ -1,0 +1,7 @@
+system,status,n,candidate_k,selected_source_matches_rank1,platt_raw_rank_equivalent
+Quality Rule,AVAILABLE,78,5.0,True,
+XGBoost,AVAILABLE,78,5.0,True,
+GRU,AVAILABLE,78,5.0,True,
+JEV margin only,AVAILABLE,78,,,
+Selected-source Q only,AVAILABLE,78,,,
+Raw JEV confidence,RANK_EQUIVALENT_AUDIT_ONLY,78,,,True

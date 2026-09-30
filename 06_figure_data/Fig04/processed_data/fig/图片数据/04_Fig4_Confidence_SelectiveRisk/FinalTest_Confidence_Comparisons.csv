@@ -1,0 +1,5 @@
+﻿hypothesis_id,comparison,raw_effect,raw_p,Holm_p,supported
+C1,Platt vs Raw Identity,-0.1724935552165451,9.999000099990002e-05,0.00029997000299970003,True
+C2,Platt vs constant Validation Base Rate,0.0005242792257235601,0.6532346765323468,0.6532346765323468,False
+C3,Full JEV confidence vs Margin-only,-0.026002200960778654,9.999000099990002e-05,0.00029997000299970003,True
+SUPPORTING_SELECTED_Q,Selected-Q confidence (supporting only),-0.01914900785609397,,,False

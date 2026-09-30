@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "test_opened": true,
+  "primary_stations": 171,
+  "candidate_k": 5,
+  "equal_method_denominators": true,
+  "missing_primary_predictions": 0,
+  "formula_errors": 0
+}

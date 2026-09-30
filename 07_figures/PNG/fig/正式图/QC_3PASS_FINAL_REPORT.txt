@@ -1,0 +1,45 @@
+JEV Fig.1–Fig.5 Final SCI Export — Three-Pass QC Report
+Date: 2026-09-27
+
+PASS 1 — DATA AND SCIENTIFIC-CONTENT CHECK
+Fig.1: cohort/task constants checked: PeMS District 7; Jan–Aug 2026; 1,936 monitored; 1,886 stable matched; H30 common Q0=172; primary evaluable=171; K=5.
+Fig.2: workflow constants checked: cohort 1,936→1,886→171; K=5; JEV weights displayed approximately Q=0.369, S=0.341, D=0.180, C=0.110; chronological Train→Validation→Stats Freeze→Held-out Test logic retained.
+Fig.3(b) corrected from authoritative Step2A target-time source: n=10,600; mean spread=5.135235 mph; median=3.670702 mph; max=50.206900 mph.
+Fig.3(d) corrected to prespecified paired effects in FinalTest_Primary_Comparisons.csv:
+  P1: JEV vs Quality Rule; effect=0.027087; Holm p=0.080992; Cohen dz=0.137.
+  P2: JEV vs XGBoost; effect=0.069620; Holm p=0.000400; Cohen dz=0.342.
+  P3: JEV vs GRU; effect=0.045925; Holm p=0.024798; Cohen dz=0.192.
+Fig.3(c): overall mean normalized regret and 95% CI checked against FinalTest_Selector_Performance.csv.
+Fig.4: calibration/selective-risk values checked: Brier Raw=0.4292, Platt=0.2486, Base rate=0.2499; AURC=0.3340; ΔAURC vs random=-0.0494 (Holm p=0.0004); vs margin-only=-0.0260 (Holm p=0.0003); fixed coverage risks 100/50/40/20%=0.3834/0.3237/0.3016/0.2707.
+Fig.5: Step2E efficiency cross-check: JEV median latency=0.955114 ms/target-time; median throughput=1046.995767 target-times/s; model size=3.338867 KB. Step2G selection/confidence ablation values checked against current source tables.
+
+PASS 2 — LAYOUT / FORMAT CHECK
+All Fig.1–Fig.5 outputs use exact 16:9 canvases and preserve each source figure aspect ratio; no stretching or cropping was applied. White padding is used where necessary.
+300 dpi: 4800×2700 px. 600 dpi: 9600×5400 px.
+Each figure exported as PNG and LZW-compressed TIFF.
+
+PASS 3 — FINAL VISUAL / FILE CHECK
+Fig1_FINAL_16x9_300dpi.png: 4800×2700 px; 6.20 MB; opened successfully.
+Fig1_FINAL_16x9_300dpi.tiff: 4800×2700 px; 7.82 MB; opened successfully.
+Fig1_FINAL_16x9_600dpi.png: 9600×5400 px; 16.80 MB; opened successfully.
+Fig1_FINAL_16x9_600dpi.tiff: 9600×5400 px; 22.01 MB; opened successfully.
+Fig2_FINAL_16x9_300dpi.png: 4800×2700 px; 5.80 MB; opened successfully.
+Fig2_FINAL_16x9_300dpi.tiff: 4800×2700 px; 6.78 MB; opened successfully.
+Fig2_FINAL_16x9_600dpi.png: 9600×5400 px; 16.09 MB; opened successfully.
+Fig2_FINAL_16x9_600dpi.tiff: 9600×5400 px; 19.08 MB; opened successfully.
+Fig3_FINAL_16x9_300dpi.png: 4800×2700 px; 1.41 MB; opened successfully.
+Fig3_FINAL_16x9_300dpi.tiff: 4800×2700 px; 1.51 MB; opened successfully.
+Fig3_FINAL_16x9_600dpi.png: 9600×5400 px; 4.27 MB; opened successfully.
+Fig3_FINAL_16x9_600dpi.tiff: 9600×5400 px; 5.14 MB; opened successfully.
+Fig4_FINAL_16x9_300dpi.png: 4800×2700 px; 4.65 MB; opened successfully.
+Fig4_FINAL_16x9_300dpi.tiff: 4800×2700 px; 5.03 MB; opened successfully.
+Fig4_FINAL_16x9_600dpi.png: 9600×5400 px; 12.48 MB; opened successfully.
+Fig4_FINAL_16x9_600dpi.tiff: 9600×5400 px; 13.80 MB; opened successfully.
+Fig5_FINAL_16x9_300dpi.png: 4800×2700 px; 5.38 MB; opened successfully.
+Fig5_FINAL_16x9_300dpi.tiff: 4800×2700 px; 5.65 MB; opened successfully.
+Fig5_FINAL_16x9_600dpi.png: 9600×5400 px; 14.29 MB; opened successfully.
+Fig5_FINAL_16x9_600dpi.tiff: 9600×5400 px; 15.25 MB; opened successfully.
+Visual contact-sheet inspection completed: panel labels/text are preserved; no figure was cropped; corrected Fig.3(b)/(d) are visible in final composite.
+
+FINAL QC RESULT: PASS (3/3)
+Note: Fig.1, Fig.2, Fig.4 and Fig.5 are standardized from the approved raster masters; DPI upscaling changes delivery resolution, not the underlying scientific information.

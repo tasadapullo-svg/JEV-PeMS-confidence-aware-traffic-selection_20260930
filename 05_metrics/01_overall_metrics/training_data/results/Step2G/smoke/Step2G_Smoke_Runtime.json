@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "elapsed_seconds_before_workbook": 0.8794809999963036,
+  "selection_bootstrap_repetitions": 200,
+  "bootstrap_cluster": "target_station",
+  "test_loaded": false,
+  "formal_production_executed": false
+}

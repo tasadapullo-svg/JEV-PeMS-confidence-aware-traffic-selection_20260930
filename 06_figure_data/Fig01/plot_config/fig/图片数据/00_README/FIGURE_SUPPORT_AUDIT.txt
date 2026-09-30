@@ -1,0 +1,30 @@
+JEV Fig.1–Fig.5 supporting-data audit (27 Sep 2026)
+
+AUTHORITATIVE SOURCE
+- training_data(2).zip (formal production / frozen development / Final Test files).
+- No values were digitized from the PNGs and no synthetic values were generated.
+
+FIG.3 IMPORTANT MISMATCHES
+1) Fig.3(b) Candidate utility spread
+   Uploaded figure label: n = 12,842 target-time samples and visible spread range extending to about 120 mph.
+   Current formal Step2A production source: 10,600 unique target-time samples (53,000 candidate rows / K=5), with best–worst spread max = 50.206899642944336 mph.
+   Therefore the uploaded Fig.3(b) is NOT exactly reproducible from the current authoritative production source.
+
+2) Fig.3(d) Prespecified pairwise effects
+   The uploaded figure's displayed deltas (~0.0155, ~0.0335, ~0.0154) correspond to simple differences between overall mean normalized regrets in FinalTest_Selector_Performance.csv.
+   However the formal prespecified paired inferential effects in FinalTest_Primary_Comparisons.csv are:
+   P1 JEV vs Quality Rule: effect = +0.0270873631, Holm p = 0.0809919008, Cohen dz = 0.1365416022.
+   P2 JEV vs XGBoost: effect = +0.0696201229, Holm p = 0.0003999600, Cohen dz = 0.3420337693.
+   P3 JEV vs GRU: effect = +0.0459247887, Holm p = 0.0247975202, Cohen dz = 0.1919473937.
+   Thus the current uploaded Fig.3(d) mixes descriptive overall-mean differences with different inferential annotations and should be corrected before submission.
+
+FIG.4
+- Calibration, Brier scores, Final Test confidence comparisons, empirical risk–coverage curve and fixed coverage points are included from the exact frozen source files.
+- Exact fixed-coverage values include: 100% = 0.3834153999 (n=1579), 50% = 0.3236995571 (n=790), 40% = 0.3015645668 (n=632), 20% = 0.2706570187 (n=316).
+
+FIG.5
+- Uses frozen development evidence, not Final Test evidence.
+- Step2G source contains a stale `development_smoke_only=True` field; audit/Step2G_Freeze/Step2G_Metadata_Correction.json explicitly corrects this metadata to formal production=true, development_only=true, smoke_only=false without changing numerical results.
+
+FIG.1 / FIG.2
+- These are primarily study-design/workflow schematics. Their scientific numerical anchors/configuration files are included. Decorative time-series motifs, freeway art, and illustrative example utility labels are not empirical datasets.

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "elapsed_seconds_before_workbook": 105.22694819999742,
+  "prediction_source": "REUSED_FROZEN",
+  "independent_gru_predictions_regenerated_from_frozen_model": true,
+  "test_loaded": false,
+  "formal_production_executed": true
+}

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "feature_preparation_seconds_excluded_from_primary_latency": 157.44774699999834,
+  "elapsed_seconds_before_workbook": 174.63950309999927,
+  "full_production_executed": false
+}

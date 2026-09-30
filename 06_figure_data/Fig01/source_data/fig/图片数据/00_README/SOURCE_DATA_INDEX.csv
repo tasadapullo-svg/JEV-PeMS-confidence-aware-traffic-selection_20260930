@@ -1,0 +1,57 @@
+﻿figure,panel,package_file,authoritative_origin,status,role,note
+Fig1,a-c,01_Fig1_Study_Setup/Fig1_cohort_task_plot_source.csv,training_data(2).zip / project frozen setup,exact or derived as named,study setup/task construction,
+Fig1,a-c,01_Fig1_Study_Setup/FinalTest_Cohort_Audit.csv,training_data(2).zip / project frozen setup,exact or derived as named,study setup/task construction,
+Fig1,a-c,01_Fig1_Study_Setup/NOTE_Fig1_schematic_elements.txt,training_data(2).zip / project frozen setup,exact or derived as named,study setup/task construction,
+Fig1,a-c,01_Fig1_Study_Setup/Step2A_Candidate_Availability_Audit.csv,training_data(2).zip / project frozen setup,exact or derived as named,study setup/task construction,
+Fig1,a-c,01_Fig1_Study_Setup/Step2A_Candidate_Set_Size.csv,training_data(2).zip / project frozen setup,exact or derived as named,study setup/task construction,
+Fig1,a-c,01_Fig1_Study_Setup/Step2A_Discovery_Report.json,training_data(2).zip / project frozen setup,exact or derived as named,study setup/task construction,
+Fig1,a-c,01_Fig1_Study_Setup/Step2A_Freeze_Config.json,training_data(2).zip / project frozen setup,exact or derived as named,study setup/task construction,
+Fig1,a-c,01_Fig1_Study_Setup/Step2A_QC.json,training_data(2).zip / project frozen setup,exact or derived as named,study setup/task construction,
+Fig2,a-f,02_Fig2_Workflow/FINAL_TEST_PROTOCOL.md,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/Fig2_JEV_frozen_weights_plot_source.csv,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/FinalTest_QC.json,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/NOTE_Fig2_is_workflow_not_result_plot.txt,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/Stats_Freeze_Config.json,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/Step2B_JEV_Weights.json,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/Step2B_Method_Summary.csv,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/Step2B_Model_Config.json,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/Step2C_Calibration_Method_Summary.csv,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/Step2D_AURC_Summary.csv,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/Step2E_Method_Efficiency_Summary.csv,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/Step2G_Confidence_Ablation_Summary.csv,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig2,a-f,02_Fig2_Workflow/Step2G_Selection_Ablation_Summary.csv,training_data(2).zip,exact or derived as named,workflow/frozen protocol,
+Fig3,d,03_Fig3_Selection_Reality_Benchmark/FIG3_SOURCE_MISMATCH_NOTE.txt,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig3,a,03_Fig3_Selection_Reality_Benchmark/Fig3a_Oracle_Switching_plot_source.csv,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig3,a,03_Fig3_Selection_Reality_Benchmark/Fig3a_unique_oracle_candidate_counts.csv,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig3,b,03_Fig3_Selection_Reality_Benchmark/Fig3b_Candidate_Utility_Spread_target_time_plot_source.csv,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig3,b,03_Fig3_Selection_Reality_Benchmark/Fig3b_spread_summary.csv,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig3,c,03_Fig3_Selection_Reality_Benchmark/Fig3c_Selector_Performance_plot_source.csv,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig3,d,03_Fig3_Selection_Reality_Benchmark/Fig3d_DisplayMeanNR_Differences.csv,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig3,d,03_Fig3_Selection_Reality_Benchmark/FinalTest_Primary_Comparisons.csv,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig3,c,03_Fig3_Selection_Reality_Benchmark/FinalTest_Selector_Performance.csv,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig3,a,03_Fig3_Selection_Reality_Benchmark/Step2A_Oracle_Turnover.csv,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig3,b,03_Fig3_Selection_Reality_Benchmark/Step2A_Oracle_Utility.csv,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig3,a,03_Fig3_Selection_Reality_Benchmark/Step2A_Target_Level_Summary.csv,training_data(2).zip,exact/derived; see audit,quantitative result,Fig3(b)/(d) mismatch audit applies
+Fig4,a-b,04_Fig4_Confidence_SelectiveRisk/Fig4_operating_points_100_50_40_20.csv,training_data(2).zip,exact or derived subset,quantitative calibration/selective-risk,
+Fig4,a-b,04_Fig4_Confidence_SelectiveRisk/FinalTest_Calibration.csv,training_data(2).zip,exact or derived subset,quantitative calibration/selective-risk,
+Fig4,a-b,04_Fig4_Confidence_SelectiveRisk/FinalTest_Confidence_Comparisons.csv,training_data(2).zip,exact or derived subset,quantitative calibration/selective-risk,
+Fig4,a-b,04_Fig4_Confidence_SelectiveRisk/FinalTest_RiskCoverage_Curve.csv,training_data(2).zip,exact or derived subset,quantitative calibration/selective-risk,
+Fig4,a-b,04_Fig4_Confidence_SelectiveRisk/FinalTest_RiskCoverage_FixedCoverage.csv,training_data(2).zip,exact or derived subset,quantitative calibration/selective-risk,
+Fig4,a-b,04_Fig4_Confidence_SelectiveRisk/Step2C_Reliability_Bins.csv,training_data(2).zip,exact or derived subset,quantitative calibration/selective-risk,
+Fig4,a-b,04_Fig4_Confidence_SelectiveRisk/Step2C_Reliability_Diagram_SourceData.csv,training_data(2).zip,exact or derived subset,quantitative calibration/selective-risk,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Fig5a_end_to_end_latency_plot_source.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Fig5b_Pareto_plot_source.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Fig5c_Selection_Ablation_plot_source.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Fig5d_Confidence_Ablation_plot_source.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2E_Inference_Latency.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2E_Model_Size.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2E_Pareto_Analysis.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2E_Regret_Latency_SourceData.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2E_Throughput.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2G_Ablation_Weights.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2G_Confidence_Ablation_Summary.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2G_Freeze_Summary.json,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2G_Metadata_Correction.json,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2G_Paired_Development_Comparisons.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2G_Selection_Ablation_Summary.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,
+Fig5,a-d,05_Fig5_Efficiency_Ablation/Step2G_Station_Level_Ablation.csv,training_data(2).zip,exact or derived as named,frozen development efficiency/ablation,

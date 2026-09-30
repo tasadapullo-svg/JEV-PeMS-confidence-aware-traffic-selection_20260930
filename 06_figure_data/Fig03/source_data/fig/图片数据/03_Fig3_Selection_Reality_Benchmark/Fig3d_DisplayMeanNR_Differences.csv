@@ -1,0 +1,4 @@
+﻿comparison,JEV_overall_mean_NR,baseline_overall_mean_NR,simple_difference_JEV_minus_baseline,warning
+JEV vs Quality Rule,0.3834153999303796,0.367911443648175,0.015503956282204578,Descriptive difference of overall method means; NOT the prespecified paired inferential effect.
+JEV vs XGBoost,0.3834153999303796,0.3499333133292841,0.03348208660109547,Descriptive difference of overall method means; NOT the prespecified paired inferential effect.
+JEV vs GRU,0.3834153999303796,0.36802885679397274,0.01538654313640686,Descriptive difference of overall method means; NOT the prespecified paired inferential effect.

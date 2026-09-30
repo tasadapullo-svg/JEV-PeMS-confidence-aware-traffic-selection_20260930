@@ -1,0 +1,92 @@
+{
+  "status": "IMMUTABLE_PRE_TEST",
+  "created_utc": "2026-09-24T07:50:31.510047+00:00",
+  "test_loaded": false,
+  "selectors": [
+    "Nearest",
+    "Historical Best",
+    "Quality Rule",
+    "Ridge",
+    "XGBoost",
+    "GRU",
+    "JEV"
+  ],
+  "selector_refit_on_validation": false,
+  "candidate_k": 5,
+  "primary_station_universe": 171,
+  "audit_only_station": 777316,
+  "near_oracle_threshold_mph": 0.5,
+  "FINAL_BASE_RATE": 0.4192872117400419,
+  "raw_confidence_q75": 0.031266923959426346,
+  "final_platt_monotonic_increasing": true,
+  "alpha": 0.05,
+  "bootstrap_repetitions": 10000,
+  "permutation_repetitions": 10000,
+  "random_rankings": 10000,
+  "seed": 20260924,
+  "cluster": "target_station",
+  "bootstrap_ci": "percentile 95%",
+  "holm_families": [
+    "PRIMARY",
+    "CONFIDENCE",
+    "BOUNDARY_REPLICATION"
+  ],
+  "fixed_coverages": [
+    1.0,
+    0.9,
+    0.8,
+    0.7,
+    0.6,
+    0.5,
+    0.4,
+    0.3,
+    0.2
+  ],
+  "ece": "10 equal-width bins",
+  "risk_curve_smoothing": false,
+  "thresholds_inherited_exactly_from_step2h": {
+    "SPREAD": {
+      "variable": "spread",
+      "p33_333": 2.7426681518554688,
+      "p66_667": 5.247722625732422,
+      "fit_split": "Train",
+      "labels": "LOW_SPREAD|MID_SPREAD|HIGH_SPREAD"
+    },
+    "QUALITY_LEVEL": {
+      "variable": "candidate_set_mean_Q",
+      "p33_333": 0.1566838150406092,
+      "p66_667": 0.2690626698356321,
+      "fit_split": "Train",
+      "labels": "LOW_Q|MID_Q|HIGH_Q"
+    },
+    "QUALITY_HETEROGENEITY": {
+      "variable": "quality_range",
+      "p33_333": 0.0943337387345246,
+      "p66_667": 0.2803315825347821,
+      "fit_split": "Train",
+      "labels": "LOW_Q_HETEROGENEITY|MID_Q_HETEROGENEITY|HIGH_Q_HETEROGENEITY"
+    },
+    "VOLATILITY": {
+      "variable": "candidate_set_mean_volatility",
+      "p33_333": 0.0996942712765851,
+      "p66_667": 0.2244451267285925,
+      "fit_split": "Train",
+      "labels": "LOW_VOLATILITY|MID_VOLATILITY|HIGH_VOLATILITY"
+    },
+    "DISTANCE": {
+      "variable": "candidate_set_mean_abs_postmile_distance",
+      "p33_333": 0.7390000000000001,
+      "p66_667": 1.014000000000001,
+      "fit_split": "Train",
+      "labels": "NEAR|MEDIUM|FAR"
+    },
+    "HIGH_CONFIDENCE": {
+      "variable": "Platt calibrated probability",
+      "p33_333": null,
+      "p66_667": 0.4366091582129623,
+      "fit_split": "CAL_FIT",
+      "labels": "confidence >= CAL_FIT q75"
+    }
+  },
+  "manifest_payload_rule": "Combined SHA-256 covers immutable payload files plus external frozen dependencies. Manifest, summary, and completion attestation are excluded to avoid self-reference."
+}

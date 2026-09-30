@@ -1,0 +1,8 @@
+ranking,system,N,aurc,full_coverage_risk,minimum_observed_curve_risk,maximum_observed_curve_risk,confidence_tie_count,coverage_boundary_tie_count,monotonic_violation_count,development_only
+JEV confidence (Platt-calibrated),JEV v1.0,78,0.23743657048997527,0.3227369022041155,0.08583683431644278,0.3227369022041155,0,0,44,True
+Raw JEV confidence (rank-equivalence audit),JEV v1.0,78,0.23743657048997527,0.3227369022041155,0.08583683431644278,0.3227369022041155,0,0,44,True
+JEV margin only,JEV v1.0,78,0.23177784308787033,0.3227369022041155,0.05275591393822002,0.3227369022041155,0,0,44,True
+Selected-source Q only,JEV v1.0,78,0.24944871935027443,0.3227369022041155,0.0,0.5,71,6,43,True
+Quality Rule selective system,Quality Rule,78,0.23179946646523816,0.2637550587386517,0.0,0.5,75,8,45,True
+XGBoost selective system,XGBoost,78,0.372576240278112,0.42678103026580616,0.0,0.4615200151465844,15,3,37,True
+GRU selective system,GRU,78,0.16085301913389283,0.27369989477432777,0.0,0.2763162631068395,0,0,39,True
