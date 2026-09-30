@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "freeze_hash": "e158bf2faef3f7b1f138e3ea13927aead4e1ce313470c499ae90726de5f21292",
+  "weights": {
+    "Q": 0.49263087670345873,
+    "S": 0.4208598924582702,
+    "D": 0.0492804611493642,
+    "C": 0.03722876968890689
+  },
+  "tau_d": 3.08,
+  "optimizer": {
+    "name": "SLSQP",
+    "success": true,
+    "status": 0,
+    "message": "Optimization terminated successfully",
+    "iterations": 11,
+    "objective": 0.1538781642889406,
+    "initial_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "floating_adjustment_applied": false,
+    "raw_weights": [
+      0.49263087670345873,
+      0.4208598924582702,
+      0.0492804611493642,
+      0.03722876968890689
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+record_type,method,bin_id,bin_lower,bin_upper,n,mean_probability,observed_success_rate,absolute_gap,N_final_test,Brier,Holm_p,supported
+development_reliability_bin,Raw,0.0,0.0,0.1,278.0,0.0271882706840272,0.3345323741007194,0.3073441034166921,,,,
+development_reliability_bin,Raw,1.0,0.1,0.2,45.0,0.135859507107607,0.5777777777777777,0.4419182706701707,,,,
+development_reliability_bin,Raw,2.0,0.2,0.3,2.0,0.2444923271311538,1.0,0.7555076728688461,,,,
+development_reliability_bin,Platt,4.0,0.4,0.5,270.0,0.4370622791992304,0.337037037037037,0.1000252421621934,,,,
+development_reliability_bin,Platt,5.0,0.5,0.6,53.0,0.5376336531587265,0.5283018867924528,0.0093317663662736,,,,
+development_reliability_bin,Platt,6.0,0.6,0.7,2.0,0.6448646397423108,1.0,0.3551353602576892,,,,
+development_reliability_bin,Isotonic,1.0,0.1,0.2,2.0,0.1818181818181818,0.0,0.1818181818181818,,,,
+development_reliability_bin,Isotonic,3.0,0.3,0.4,45.0,0.3807339449541284,0.1777777777777777,0.2029561671763506,,,,
+development_reliability_bin,Isotonic,4.0,0.4,0.5,195.0,0.4352619613692804,0.3846153846153846,0.0506465767538958,,,,
+development_reliability_bin,Isotonic,5.0,0.5,0.6,35.0,0.5450017277531913,0.2857142857142857,0.2592874420389056,,,,
+development_reliability_bin,Isotonic,6.0,0.6,0.7,46.0,0.6656153965735992,0.5652173913043478,0.1003980052692514,,,,
+development_reliability_bin,Isotonic,7.0,0.7,0.8,1.0,0.779173382234319,1.0,0.220826617765681,,,,
+development_reliability_bin,Isotonic,9.0,0.9,1.0,1.0,1.0,1.0,0.0,,,,
+heldout_brier,Raw Identity,,,,,,,,1579.0,0.4291907967513756,,
+heldout_brier,Final Platt,,,,,,,,1579.0,0.2485807448779746,0.0002999700029997,True
+heldout_brier,Constant Validation Base Rate,,,,,,,,1579.0,0.2499205391883582,0.6532346765323468,False

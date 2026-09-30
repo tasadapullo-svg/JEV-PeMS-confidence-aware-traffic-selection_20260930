@@ -1,0 +1,26 @@
+Fig.4 source verification
+Archive: training_data(2).zip
+
+Panel (a)
+- Step2C real non-empty bins plotted: 13
+- Raw non-empty bins: 3
+- Platt non-empty bins: 3
+- Isotonic non-empty bins: 7
+- Raw Identity Brier: 0.429190796751
+- Final Platt Brier: 0.248580744878
+- Constant Validation Base Rate Brier: 0.249920539188
+- C1 Holm p: 0.000299970003
+- C2 Holm p: 0.653234676532
+
+Panel (b)
+- Final Test risk-coverage rows: 1579
+- Displayed main curve rows (coverage >= 20%): 1264
+- Full discrete-mean AURC: 0.333994728195
+- P4 DeltaAURC full - random: -0.049354862006; Holm p=0.000399960004
+- C3 DeltaAURC full - margin-only: -0.026002200961; Holm p=0.000299970003
+- Fixed 100%: NR=0.383415399930, N=1579
+- Fixed 50%: NR=0.323699557145, N=790
+- Fixed 40%: NR=0.301564566822, N=632
+- Fixed 20%: NR=0.270657018742, N=316
+
+No synthetic calibration points, splines, invented CIs, or comparison curves were used.
